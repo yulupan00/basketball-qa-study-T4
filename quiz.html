@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball QA - Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <span class="nav-title">Basketball Video QA</span>
+            <span class="nav-user">User: <strong id="navUserId"></strong></span>
+        </div>
+        <div class="nav-right">
+            <span class="progress-text" id="progressText">0 / 0</span>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progressBar" style="width: 0%"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="quiz-container">
+        <!-- Category Header -->
+        <div class="category-header" id="categoryHeader">
+            <span class="category-label">Category:</span>
+            <span class="category-name" id="categoryName"></span>
+            <span class="category-progress" id="categoryProgress"></span>
+        </div>
+
+        <!-- Video Section -->
+        <div class="video-section">
+            <video id="videoPlayer" controls preload="auto" playsinline>
+                Your browser does not support the video element.
+            </video>
+            <div class="video-loading" id="videoLoading">
+                <div class="spinner-border text-light" role="status"></div>
+                <p>Loading video...</p>
+            </div>
+            <div class="video-error" id="videoError" style="display: none;">
+                <i class="bi bi-exclamation-triangle"></i>
+                <p>Video could not be loaded.</p>
+            </div>
+        </div>
+
+        <!-- Question Section -->
+        <div class="question-section">
+            <div class="question-number" id="questionNumber">Question 1</div>
+            <p class="question-text" id="questionText"></p>
+
+            <div class="options-container" id="optionsContainer">
+                <!-- Options rendered by JS -->
+            </div>
+
+            <!-- Feedback -->
+            <div class="feedback" id="feedback" style="display: none;">
+                <div class="feedback-icon" id="feedbackIcon"></div>
+                <div class="feedback-text" id="feedbackText"></div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="nav-buttons">
+            <button class="btn btn-outline-secondary" id="prevBtn" disabled>
+                <i class="bi bi-chevron-left"></i> Previous
+            </button>
+            <button class="btn btn-primary" id="submitBtn" disabled>
+                Submit Answer
+            </button>
+            <button class="btn btn-primary" id="nextBtn" style="display: none;">
+                Next <i class="bi bi-chevron-right"></i>
+            </button>
+            <button class="btn btn-success" id="finishBtn" style="display: none;">
+                Submit Study <i class="bi bi-check-circle"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Completion Modal -->
+    <div class="modal-overlay" id="completionModal" style="display: none;">
+        <div class="modal-card">
+            <h2>Study Complete!</h2>
+            <div class="completion-stats">
+                <div class="stat">
+                    <span class="stat-value" id="finalAnswered">0</span>
+                    <span class="stat-label">Answered</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="finalCorrect">0</span>
+                    <span class="stat-label">Correct</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="finalAccuracy">0%</span>
+                    <span class="stat-label">Accuracy</span>
+                </div>
+            </div>
+            <div id="submitStatus">
+                <div class="spinner-border spinner-border-sm text-primary" role="status"></div>
+                <span>Submitting your responses...</span>
+            </div>
+            <div id="submitSuccess" style="display: none;">
+                <p class="text-success">Your responses have been submitted successfully!</p>
+            </div>
+            <div id="submitError" style="display: none;">
+                <p class="text-danger">Submission failed. Please download your results instead.</p>
+                <button class="btn btn-outline-primary btn-sm" id="downloadBtn">Download Results JSON</button>
+            </div>
+            <p class="text-muted mt-3">Thank you for participating!</p>
+        </div>
+    </div>
+
+    <!-- Submitting overlay -->
+    <div class="modal-overlay" id="submittingOverlay" style="display: none;">
+        <div class="modal-card text-center">
+            <div class="spinner-border text-primary mb-3" role="status"></div>
+            <p>Submitting your responses...</p>
+        </div>
+    </div>
+
+    <script src="data/questions.js"></script>
+    <script src="js/video_mapping.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
