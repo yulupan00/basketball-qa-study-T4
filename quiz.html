@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basketball QA - Quiz</title>
+    <title>Sports QA - Quiz</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -12,7 +12,7 @@
     <!-- Top Navigation Bar -->
     <nav class="navbar">
         <div class="nav-left">
-            <span class="nav-title">Basketball Video QA</span>
+            <span class="nav-title" id="navTitle">Video QA</span>
             <span class="nav-user">User: <strong id="navUserId"></strong></span>
         </div>
         <div class="nav-right">
@@ -129,8 +129,32 @@
         </div>
     </div>
 
-    <script src="data/questions.js"></script>
-    <script src="js/video_mapping.js"></script>
-    <script src="js/quiz.js"></script>
+    <script>
+        // Determine sport and load correct data files, then init quiz
+        (function() {
+            var params = new URLSearchParams(window.location.search);
+            var sport = params.get('sport') || 'basketball';
+            window.CURRENT_SPORT = sport;
+
+            var qFiles = { hockey: 'data/hockey_questions.js', soccer: 'data/soccer_questions.js' };
+            var vmFiles = { hockey: 'js/hockey_video_mapping.js', soccer: 'js/soccer_video_mapping.js' };
+            var qFile = qFiles[sport] || 'data/questions.js';
+            var vmFile = vmFiles[sport] || 'js/video_mapping.js';
+
+            var s1 = document.createElement('script');
+            s1.src = qFile;
+            s1.onload = function() {
+                var s2 = document.createElement('script');
+                s2.src = vmFile;
+                s2.onload = function() {
+                    var s3 = document.createElement('script');
+                    s3.src = 'js/quiz.js';
+                    document.body.appendChild(s3);
+                };
+                document.body.appendChild(s2);
+            };
+            document.body.appendChild(s1);
+        })();
+    </script>
 </body>
 </html>

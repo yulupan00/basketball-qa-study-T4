@@ -1,19 +1,25 @@
 /**
- * Basketball QA Human Study - Static Quiz Interface
+ * Sports QA Human Study - Static Quiz Interface
  * Uses localStorage for persistence and FormSpree for submission.
  */
 
 (function () {
     // ============================================================
-    // CONFIGURATION - Update this with your FormSpree form ID
+    // CONFIGURATION
     // ============================================================
     const FORMSPREE_URL = "https://formspree.io/f/xkopzyyb";
+
+    // Sport detection from URL or global
+    const sport = window.CURRENT_SPORT || "basketball";
+    const sportName = sport.charAt(0).toUpperCase() + sport.slice(1);
+    const STORAGE_SESSION_KEY = "bqa_" + sport + "_session";
+    const STORAGE_ANSWERS_KEY = "bqa_" + sport + "_answers";
 
     // ============================================================
     // State
     // ============================================================
     let currentIndex = 0;
-    let answers = {};       // { questionId: { selected, submitted, isCorrect, correctAnswer } }
+    let answers = {};
     let selectedOption = null;
     let selectedConfidence = "sure"; // default
     let session = null;
@@ -42,8 +48,9 @@
     const progressText = document.getElementById("progressText");
     const progressBar = document.getElementById("progressBar");
 
-    // Pretty names for question types
+    // Pretty names for question types (basketball + hockey)
     const TYPE_DISPLAY_NAMES = {
+        // Basketball
         "Q1_atomic_action_recognition": "Atomic Action Recognition",
         "Q2_action_sequence": "Action Sequence",
         "Q3_contested_shot": "Contested Shot",
@@ -62,6 +69,33 @@
         "Q6_shot_clock": "Shot Clock",
         "Q6_which_quarter": "Which Quarter",
         "Q6_which_teams": "Which Teams",
+        // Hockey
+        "Q1_hockey_atomic_action_recognition": "Atomic Action Recognition",
+        "Q2_hockey_action_sequence": "Action Sequence",
+        "Q3_hockey_goalie_stance": "Goalie Stance",
+        "Q3_hockey_penalty_violation": "Penalty Violation",
+        "Q3_hockey_shot_type": "Shot Type",
+        "Q4_hockey_zone_understanding": "Zone Understanding",
+        "Q5_hockey_player_jersey_number": "Player Jersey Number",
+        "Q5_hockey_player_name_10000x40": "Player Name",
+        "Q6_which_period": "Which Period",
+        "Q6_which_teams": "Which Teams",
+        // Soccer
+        "Q1_primary_action_recognition": "Primary Action Recognition",
+        "Q1_secondary_action_recognition": "Secondary Action Recognition",
+        "Q2_action_sequence": "Action Sequence",
+        "Q3_attack_flank": "Attack Flank",
+        "Q3_pass_accurate": "Pass Accuracy",
+        "Q3_pass_height": "Pass Height",
+        "Q3_shot_body_part": "Shot Body Part",
+        "Q3_shot_expected_goal": "Shot Expected Goal",
+        "Q3_shot_goal": "Shot Goal",
+        "Q4_shot_spatial": "Shot Spatial",
+        "Q5_player_name": "Player Name",
+        "Q5_player_position": "Player Position",
+        "Q6_current_time": "Current Time",
+        "Q6_which_half": "Which Half",
+        "Q6_which_team": "Which Team",
     };
 
     // ============================================================
@@ -69,16 +103,17 @@
     // ============================================================
     function init() {
         // Check session
-        const savedSession = localStorage.getItem("bqa_session");
+        const savedSession = localStorage.getItem(STORAGE_SESSION_KEY);
         if (!savedSession) {
-            window.location.href = "index.html";
+            window.location.href = "start.html?sport=" + sport;
             return;
         }
         session = JSON.parse(savedSession);
         document.getElementById("navUserId").textContent = session.userId;
+        document.getElementById("navTitle").textContent = sportName + " Video QA";
 
         // Load saved answers
-        const savedAnswers = localStorage.getItem("bqa_answers");
+        const savedAnswers = localStorage.getItem(STORAGE_ANSWERS_KEY);
         if (savedAnswers) {
             answers = JSON.parse(savedAnswers);
         }
@@ -122,7 +157,7 @@
     // Persistence
     // ============================================================
     function saveAnswers() {
-        localStorage.setItem("bqa_answers", JSON.stringify(answers));
+        localStorage.setItem(STORAGE_ANSWERS_KEY, JSON.stringify(answers));
     }
 
     // ============================================================
@@ -204,10 +239,14 @@
         q.options.forEach((opt) => {
             const btn = document.createElement("button");
             btn.className = "option-btn";
-            btn.innerHTML = `
-                <span class="option-letter">${opt.letter}</span>
-                <span class="option-text">${opt.text}</span>
-            `;
+            const letterSpan = document.createElement("span");
+            letterSpan.className = "option-letter";
+            letterSpan.textContent = opt.letter;
+            const textSpan = document.createElement("span");
+            textSpan.className = "option-text";
+            textSpan.textContent = opt.text;
+            btn.appendChild(letterSpan);
+            btn.appendChild(textSpan);
 
             if (existingAnswer && existingAnswer.submitted) {
                 btn.classList.add("disabled");
@@ -403,6 +442,7 @@
         const payload = {
             user_id: session.userId,
             email: session.userEmail || "",
+            sport: sport,
             expertise_years: session.expertiseYears || "",
             expertise_rating: session.expertiseRating || "",
             session_id: session.sessionId,
@@ -430,8 +470,8 @@
                 document.getElementById("submitStatus").style.display = "none";
                 document.getElementById("submitSuccess").style.display = "block";
                 // Clear localStorage after successful submission
-                localStorage.removeItem("bqa_answers");
-                localStorage.removeItem("bqa_session");
+                localStorage.removeItem(STORAGE_ANSWERS_KEY);
+                localStorage.removeItem(STORAGE_SESSION_KEY);
             } else {
                 throw new Error("FormSpree returned " + response.status);
             }
@@ -440,10 +480,10 @@
             document.getElementById("submitStatus").style.display = "none";
             document.getElementById("submitError").style.display = "block";
 
-            // Setup download fallback
-            document.getElementById("downloadBtn").addEventListener("click", function () {
+            // Setup download fallback (use onclick to avoid stacking listeners)
+            document.getElementById("downloadBtn").onclick = function () {
                 downloadResults(payload);
-            });
+            };
         }
     }
 

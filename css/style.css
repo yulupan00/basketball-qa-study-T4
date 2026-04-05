@@ -233,6 +233,44 @@ body {
     margin-bottom: 0;
 }
 
+/* === Sport Selection Buttons === */
+.sport-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.btn-sport {
+    display: block;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.btn-sport:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.btn-basketball {
+    background: linear-gradient(135deg, #e65100, #ff8f00);
+}
+
+.btn-hockey {
+    background: linear-gradient(135deg, #1565c0, #42a5f5);
+}
+
+.btn-soccer {
+    background: linear-gradient(135deg, #2e7d32, #66bb6a);
+}
+
 .start-form .form-label {
     font-weight: 600;
     font-size: 0.95rem;

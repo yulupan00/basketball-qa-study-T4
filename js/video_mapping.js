@@ -41,6 +41,7 @@ const VIDEO_MAPPING = {
   "122942291": "videos/12510_Gyorgy Goloman_2+_122942291.mp4",
   "140566184": "videos/7506_Jake Layman_2+_140566184.mp4",
   "267424100": "videos/30511_Fletcher Magee_3-_267424100.mp4",
+  "267424101": "videos/30511_Fletcher Magee_3-_267424100.mp4",
   "125598837": "videos/29277_Antonius Cleveland_2+_125598837.mp4",
   "278884746": "videos/562350_Darin Green Jr._3-_278884746.mp4",
   "222844477": "videos/488333_Matt Faw_2-_222844477.mp4",

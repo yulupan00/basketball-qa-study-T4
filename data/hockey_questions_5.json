@@ -1,0 +1,2130 @@
+[
+  {
+    "id": 552598660,
+    "question_type": "Q1_hockey_atomic_action_recognition",
+    "question": "Identify the atomic action displayed in this hockey clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Takeaway"
+      },
+      {
+        "letter": "B",
+        "text": "Second assist"
+      },
+      {
+        "letter": "C",
+        "text": "Pass inaccurate"
+      },
+      {
+        "letter": "D",
+        "text": "Successful dribbling"
+      },
+      {
+        "letter": "E",
+        "text": "Hit"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/30/989080/989080_Successful dribbling_552598660.mp4"
+  },
+  {
+    "id": 370836343,
+    "question_type": "Q1_hockey_atomic_action_recognition",
+    "question": "Identify the atomic action displayed in this hockey clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Foul"
+      },
+      {
+        "letter": "B",
+        "text": "Pass inaccurate"
+      },
+      {
+        "letter": "C",
+        "text": "Controlled breakout"
+      },
+      {
+        "letter": "D",
+        "text": "Goal"
+      },
+      {
+        "letter": "E",
+        "text": "Wide shot"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/73/607269/607269_Controlled breakout_370836343.mp4"
+  },
+  {
+    "id": 553958644,
+    "question_type": "Q1_hockey_atomic_action_recognition",
+    "question": "Which atomic action is being performed by the player in this hockey video?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Takeaway"
+      },
+      {
+        "letter": "B",
+        "text": "Goal"
+      },
+      {
+        "letter": "C",
+        "text": "Hit"
+      },
+      {
+        "letter": "D",
+        "text": "Zone entry successful"
+      },
+      {
+        "letter": "E",
+        "text": "Offside"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/40/601839/601839_Zone entry successful_553958644.mp4"
+  },
+  {
+    "id": 216326644,
+    "question_type": "Q1_hockey_atomic_action_recognition",
+    "question": "What atomic action does this hockey video depict?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Blocked shot"
+      },
+      {
+        "letter": "B",
+        "text": "First assist"
+      },
+      {
+        "letter": "C",
+        "text": "Dump out successful"
+      },
+      {
+        "letter": "D",
+        "text": "Controlled breakout"
+      },
+      {
+        "letter": "E",
+        "text": "Foul"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/16/641924/641924_Controlled breakout_216326644.mp4"
+  },
+  {
+    "id": 432506223,
+    "question_type": "Q1_hockey_atomic_action_recognition",
+    "question": "What is the atomic action shown in this hockey video clip?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Goal"
+      },
+      {
+        "letter": "B",
+        "text": "Pass inaccurate"
+      },
+      {
+        "letter": "C",
+        "text": "Dump in successful"
+      },
+      {
+        "letter": "D",
+        "text": "Dump out successful"
+      },
+      {
+        "letter": "E",
+        "text": "Puck battles"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/2826/655813/655813_Goal_432506223.mp4"
+  },
+  {
+    "id": 301670229,
+    "question_type": "Q1_hockey_atomic_action_recognition",
+    "question": "Which atomic action is being performed by the player in this hockey video?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Second assist"
+      },
+      {
+        "letter": "B",
+        "text": "Foul"
+      },
+      {
+        "letter": "C",
+        "text": "Dump in successful"
+      },
+      {
+        "letter": "D",
+        "text": "Dump in unsuccessful"
+      },
+      {
+        "letter": "E",
+        "text": "Shot on goal"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/30/646316/646316_Dump in successful_301670229.mp4"
+  },
+  {
+    "id": 346758819,
+    "question_type": "Q1_hockey_atomic_action_recognition",
+    "question": "What atomic action occurs during this video clip?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Controlled breakout"
+      },
+      {
+        "letter": "B",
+        "text": "Takeaway"
+      },
+      {
+        "letter": "C",
+        "text": "Wide shot"
+      },
+      {
+        "letter": "D",
+        "text": "Icing"
+      },
+      {
+        "letter": "E",
+        "text": "Pass accurate"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/16/27914/27914_Pass accurate_346758819.mp4"
+  },
+  {
+    "id": 461643097,
+    "question_type": "Q1_hockey_atomic_action_recognition",
+    "question": "What atomic action occurs during this video clip?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Puck losses"
+      },
+      {
+        "letter": "B",
+        "text": "Dump out successful"
+      },
+      {
+        "letter": "C",
+        "text": "Unsuccessful dribbling"
+      },
+      {
+        "letter": "D",
+        "text": "Second assist"
+      },
+      {
+        "letter": "E",
+        "text": "Zone entry successful"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/76/35975/35975_Second assist_461643097.mp4"
+  },
+  {
+    "id": 132152173,
+    "question_type": "Q2_hockey_action_sequence",
+    "question": "Identify the chronological order of actions shown in this hockey footage.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Successful dribbling, Wide shot, Dump out successful"
+      },
+      {
+        "letter": "B",
+        "text": "Dump out successful, Foul, Dump in successful"
+      },
+      {
+        "letter": "C",
+        "text": "Controlled breakout, Dump out successful, Goal"
+      },
+      {
+        "letter": "D",
+        "text": "Shot on goal, Blocked shot, Takeaway"
+      },
+      {
+        "letter": "E",
+        "text": "Faceoff, Dump in successful, Second assist"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/16/4851/4851_Blocked shot_132152173.mp4"
+  },
+  {
+    "id": 133597235,
+    "question_type": "Q2_hockey_action_sequence",
+    "question": "Determine the sequence in which the plays occur in this video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Second assist, Pass accurate, Dump in successful"
+      },
+      {
+        "letter": "B",
+        "text": "Puck battles, Dump in unsuccessful, Takeaway"
+      },
+      {
+        "letter": "C",
+        "text": "Icing, Pass accurate, Goal"
+      },
+      {
+        "letter": "D",
+        "text": "Icing, Blocked shot, First assist"
+      },
+      {
+        "letter": "E",
+        "text": "Puck battles, Pass accurate, Takeaway"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/16/11613/11613_Zone entry successful_133597235.mp4"
+  },
+  {
+    "id": 316942229,
+    "question_type": "Q2_hockey_action_sequence",
+    "question": "Identify the chronological order of actions shown in this hockey footage.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "First assist, Successful dribbling, Dump in unsuccessful"
+      },
+      {
+        "letter": "B",
+        "text": "Puck losses, Pass accurate, Offside"
+      },
+      {
+        "letter": "C",
+        "text": "Dump out unsuccessful, Goal, Breakout successful"
+      },
+      {
+        "letter": "D",
+        "text": "Faceoff, Dump out unsuccessful, Takeaway"
+      },
+      {
+        "letter": "E",
+        "text": "Puck battles, Wide shot, Controlled breakout"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/30/594194/594194_Dump out unsuccessful_316942229.mp4"
+  },
+  {
+    "id": 336637004,
+    "question_type": "Q2_hockey_action_sequence",
+    "question": "List the sequence of actions demonstrated in this clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Second assist, Puck battles, Pass accurate"
+      },
+      {
+        "letter": "B",
+        "text": "Zone entry successful, Pass accurate, Second assist"
+      },
+      {
+        "letter": "C",
+        "text": "Dump in successful, Offside, Goal"
+      },
+      {
+        "letter": "D",
+        "text": "Second assist, Shot on goal, Zone entry successful"
+      },
+      {
+        "letter": "E",
+        "text": "Foul, Successful dribbling, Dump in unsuccessful"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/7/7809/7809_Error leading to goal_336637004.mp4"
+  },
+  {
+    "id": 567582846,
+    "question_type": "Q2_hockey_action_sequence",
+    "question": "List the sequence of actions demonstrated in this clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dump in successful, Takeaway, Zone entry successful"
+      },
+      {
+        "letter": "B",
+        "text": "Offside, Second assist, Controlled breakout"
+      },
+      {
+        "letter": "C",
+        "text": "Shot on goal, Second assist, Goal"
+      },
+      {
+        "letter": "D",
+        "text": "Icing, Dump out unsuccessful, Dump out successful"
+      },
+      {
+        "letter": "E",
+        "text": "Hit, Puck battles, Breakout successful"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/39/11547/11547_Puck battles_567582846.mp4"
+  },
+  {
+    "id": 278805554,
+    "question_type": "Q2_hockey_action_sequence",
+    "question": "Describe the order of actions performed in this segment of the hockey game clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Wide shot, Pass accurate, Pass inaccurate"
+      },
+      {
+        "letter": "B",
+        "text": "First assist, Controlled breakout, Puck losses"
+      },
+      {
+        "letter": "C",
+        "text": "Blocked shot, Dump out unsuccessful, Zone entry successful"
+      },
+      {
+        "letter": "D",
+        "text": "Goal, Pass inaccurate, First assist"
+      },
+      {
+        "letter": "E",
+        "text": "Puck losses, Pass accurate, Offside"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/10/219858/219858_Pass inaccurate_278805554.mp4"
+  },
+  {
+    "id": 344912659,
+    "question_type": "Q2_hockey_action_sequence",
+    "question": "Describe the order of actions performed in this segment of the hockey game clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Zone entry successful, Unsuccessful dribbling, Puck losses"
+      },
+      {
+        "letter": "B",
+        "text": "Dump in unsuccessful, Puck losses, Dump in successful"
+      },
+      {
+        "letter": "C",
+        "text": "Second assist, Puck battles, Dump in successful"
+      },
+      {
+        "letter": "D",
+        "text": "Wide shot, Controlled breakout, Blocked shot"
+      },
+      {
+        "letter": "E",
+        "text": "Puck battles, Dump in unsuccessful, Pass inaccurate"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/16/1053702/1053702_Dump out successful_344912659.mp4"
+  },
+  {
+    "id": 412026429,
+    "question_type": "Q2_hockey_action_sequence",
+    "question": "Which actions take place, and in what order, during this clip?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hit, Zone entry successful, Pass accurate"
+      },
+      {
+        "letter": "B",
+        "text": "Successful dribbling, Faceoff, Pass accurate"
+      },
+      {
+        "letter": "C",
+        "text": "Goal, Pass inaccurate, Zone entry successful"
+      },
+      {
+        "letter": "D",
+        "text": "Dump out successful, Dump in unsuccessful, Goal"
+      },
+      {
+        "letter": "E",
+        "text": "Blocked shot, First assist, Goal"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/2/684120/684120_Touch_412026429.mp4"
+  },
+  {
+    "id": 346586280,
+    "question_type": "Q3_hockey_goalie_stance",
+    "question": "Identify the stance adopted by the goaltender at this point in the play.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Beaten"
+      },
+      {
+        "letter": "B",
+        "text": "In the butterfly position"
+      },
+      {
+        "letter": "C",
+        "text": "In motion"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/16/1139138/1139138_First assist_346586280.mp4"
+  },
+  {
+    "id": 380808360,
+    "question_type": "Q3_hockey_goalie_stance",
+    "question": "What stance does the goalie use in this hockey video?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "In motion"
+      },
+      {
+        "letter": "B",
+        "text": "Beaten"
+      },
+      {
+        "letter": "C",
+        "text": "In the butterfly position"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/65/585201/585201_Goal_380808360.mp4"
+  },
+  {
+    "id": 82720466,
+    "question_type": "Q3_hockey_goalie_stance",
+    "question": "Identify the goalie's stance shown in this video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Beaten"
+      },
+      {
+        "letter": "B",
+        "text": "In the butterfly position"
+      },
+      {
+        "letter": "C",
+        "text": "In motion"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/76/20414/20414_Goal_82720466.mp4"
+  },
+  {
+    "id": 209230642,
+    "question_type": "Q3_hockey_goalie_stance",
+    "question": "Which stance does the goalie take in this hockey footage?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Beaten"
+      },
+      {
+        "letter": "B",
+        "text": "In the butterfly position"
+      },
+      {
+        "letter": "C",
+        "text": "In motion"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/16/601329/601329_Chance_209230642.mp4"
+  },
+  {
+    "id": 350500994,
+    "question_type": "Q3_hockey_goalie_stance",
+    "question": "Which type of stance is demonstrated by the goalie in this video?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Beaten"
+      },
+      {
+        "letter": "B",
+        "text": "In the butterfly position"
+      },
+      {
+        "letter": "C",
+        "text": "In motion"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/2/652522/652522_Touch_350500994.mp4"
+  },
+  {
+    "id": 344118331,
+    "question_type": "Q3_hockey_goalie_stance",
+    "question": "Which stance does the goalie take in this hockey footage?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Beaten"
+      },
+      {
+        "letter": "B",
+        "text": "In motion"
+      },
+      {
+        "letter": "C",
+        "text": "In the butterfly position"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/16/700861/700861_Chance_344118331.mp4"
+  },
+  {
+    "id": 312690285,
+    "question_type": "Q3_hockey_goalie_stance",
+    "question": "Identify the stance adopted by the goaltender at this point in the play.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Beaten"
+      },
+      {
+        "letter": "B",
+        "text": "In the butterfly position"
+      },
+      {
+        "letter": "C",
+        "text": "In motion"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/87/646051/646051_Breakout successful_312690285.mp4"
+  },
+  {
+    "id": 233119896,
+    "question_type": "Q3_hockey_goalie_stance",
+    "question": "What stance does the goalie use in this hockey video?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "In the butterfly position"
+      },
+      {
+        "letter": "B",
+        "text": "Beaten"
+      },
+      {
+        "letter": "C",
+        "text": "In motion"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/55/33168/33168_Shot on goal_233119896.mp4"
+  },
+  {
+    "id": 218213795,
+    "question_type": "Q3_hockey_penalty_violation",
+    "question": "Which penalty or violation takes place in this video segment?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Game delay"
+      },
+      {
+        "letter": "B",
+        "text": "Fighting"
+      },
+      {
+        "letter": "C",
+        "text": "Boarding"
+      },
+      {
+        "letter": "D",
+        "text": "High-sticking"
+      },
+      {
+        "letter": "E",
+        "text": "Holding/ hooking"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/16/656951/656951_Touch_218213795.mp4"
+  },
+  {
+    "id": 453267034,
+    "question_type": "Q3_hockey_penalty_violation",
+    "question": "Identify the violation shown in this video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tripping"
+      },
+      {
+        "letter": "B",
+        "text": "Unsportsmanlike conduct"
+      },
+      {
+        "letter": "C",
+        "text": "Too many men"
+      },
+      {
+        "letter": "D",
+        "text": "Hit"
+      },
+      {
+        "letter": "E",
+        "text": "Interference"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/233/936299/936299_Touch_453267034.mp4"
+  },
+  {
+    "id": 560037793,
+    "question_type": "Q3_hockey_penalty_violation",
+    "question": "What kind of violation is shown in the hockey clip?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Roughing"
+      },
+      {
+        "letter": "B",
+        "text": "Fighting"
+      },
+      {
+        "letter": "C",
+        "text": "Boarding"
+      },
+      {
+        "letter": "D",
+        "text": "High-sticking"
+      },
+      {
+        "letter": "E",
+        "text": "Hit"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/33/591138/591138_Foul_560037793.mp4"
+  },
+  {
+    "id": 359106276,
+    "question_type": "Q3_hockey_penalty_violation",
+    "question": "Determine the type of violation that occurs in this clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "High-sticking"
+      },
+      {
+        "letter": "B",
+        "text": "Too many men"
+      },
+      {
+        "letter": "C",
+        "text": "Hit"
+      },
+      {
+        "letter": "D",
+        "text": "Holding/ hooking"
+      },
+      {
+        "letter": "E",
+        "text": "Interference"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/27/651024/651024_Breakout successful_359106276.mp4"
+  },
+  {
+    "id": 228186723,
+    "question_type": "Q3_hockey_penalty_violation",
+    "question": "What violation is committed in this video?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Other"
+      },
+      {
+        "letter": "B",
+        "text": "Hit"
+      },
+      {
+        "letter": "C",
+        "text": "Game delay"
+      },
+      {
+        "letter": "D",
+        "text": "Too many men"
+      },
+      {
+        "letter": "E",
+        "text": "Moving the goal"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/1119/920029/920029_Pass accurate_228186723.mp4"
+  },
+  {
+    "id": 351406133,
+    "question_type": "Q3_hockey_penalty_violation",
+    "question": "Determine the type of violation that occurs in this clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hit"
+      },
+      {
+        "letter": "B",
+        "text": "Charging"
+      },
+      {
+        "letter": "C",
+        "text": "Interference"
+      },
+      {
+        "letter": "D",
+        "text": "Roughing"
+      },
+      {
+        "letter": "E",
+        "text": "High-sticking"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/16/922127/922127_Pass inaccurate_351406133.mp4"
+  },
+  {
+    "id": 280880830,
+    "question_type": "Q3_hockey_penalty_violation",
+    "question": "Determine the type of violation that occurs in this clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Moving the goal"
+      },
+      {
+        "letter": "B",
+        "text": "Tripping"
+      },
+      {
+        "letter": "C",
+        "text": "Fighting"
+      },
+      {
+        "letter": "D",
+        "text": "Game delay"
+      },
+      {
+        "letter": "E",
+        "text": "Holding/ hooking"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/32/650584/650584_Pass inaccurate_280880830.mp4"
+  },
+  {
+    "id": 95357296,
+    "question_type": "Q3_hockey_penalty_violation",
+    "question": "Describe the type of rule infraction that happens in this video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Boarding"
+      },
+      {
+        "letter": "B",
+        "text": "Tripping"
+      },
+      {
+        "letter": "C",
+        "text": "Moving the goal"
+      },
+      {
+        "letter": "D",
+        "text": "High-sticking"
+      },
+      {
+        "letter": "E",
+        "text": "Other"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/32/7823/7823_Foul_95357296.mp4"
+  },
+  {
+    "id": 468564200,
+    "question_type": "Q3_hockey_shot_type",
+    "question": "Based on the video, what shot is the player attempting on goal?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hard slapshot"
+      },
+      {
+        "letter": "B",
+        "text": "Slapshot"
+      },
+      {
+        "letter": "C",
+        "text": "From behind the goal"
+      },
+      {
+        "letter": "D",
+        "text": "Wrist shot"
+      },
+      {
+        "letter": "E",
+        "text": "Deflection shot"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/326/643775/643775_First assist_468564200.mp4"
+  },
+  {
+    "id": 417544658,
+    "question_type": "Q3_hockey_shot_type",
+    "question": "Which kind of hockey shot is executed in this video?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Slapshot"
+      },
+      {
+        "letter": "B",
+        "text": "Deflection shot"
+      },
+      {
+        "letter": "C",
+        "text": "From behind the goal"
+      },
+      {
+        "letter": "D",
+        "text": "Backhand shot"
+      },
+      {
+        "letter": "E",
+        "text": "Rebound shot"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/337/659552/659552_Chance_417544658.mp4"
+  },
+  {
+    "id": 125254171,
+    "question_type": "Q3_hockey_shot_type",
+    "question": "Based on the video, what shot is the player attempting on goal?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Deflection shot"
+      },
+      {
+        "letter": "B",
+        "text": "Hard slapshot"
+      },
+      {
+        "letter": "C",
+        "text": "Deflection"
+      },
+      {
+        "letter": "D",
+        "text": "Slapshot"
+      },
+      {
+        "letter": "E",
+        "text": "Wrist shot"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/73/640203/640203_Touch_125254171.mp4"
+  },
+  {
+    "id": 420448028,
+    "question_type": "Q3_hockey_shot_type",
+    "question": "Determine the type of shot shown in this hockey clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Slapshot"
+      },
+      {
+        "letter": "B",
+        "text": "From behind the goal"
+      },
+      {
+        "letter": "C",
+        "text": "Rebound shot"
+      },
+      {
+        "letter": "D",
+        "text": "Backhand shot"
+      },
+      {
+        "letter": "E",
+        "text": "Wrist shot"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/33/607330/607330_Blocked shot_420448028.mp4"
+  },
+  {
+    "id": 294107587,
+    "question_type": "Q3_hockey_shot_type",
+    "question": "Determine the type of shot shown in this hockey clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Backhand shot"
+      },
+      {
+        "letter": "B",
+        "text": "Deflection shot"
+      },
+      {
+        "letter": "C",
+        "text": "Slapshot"
+      },
+      {
+        "letter": "D",
+        "text": "Wrist shot"
+      },
+      {
+        "letter": "E",
+        "text": "Rebound shot"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/37/585837/585837_Shot on goal_294107587.mp4"
+  },
+  {
+    "id": 491527719,
+    "question_type": "Q3_hockey_shot_type",
+    "question": "Determine the type of shot shown in this hockey clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Deflection"
+      },
+      {
+        "letter": "B",
+        "text": "Backhand shot"
+      },
+      {
+        "letter": "C",
+        "text": "Rebound shot"
+      },
+      {
+        "letter": "D",
+        "text": "Hard slapshot"
+      },
+      {
+        "letter": "E",
+        "text": "Wrist shot"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/16/3445/3445_Chance_491527719.mp4"
+  },
+  {
+    "id": 110022878,
+    "question_type": "Q3_hockey_shot_type",
+    "question": "What shot type is displayed in this hockey footage?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "From behind the goal"
+      },
+      {
+        "letter": "B",
+        "text": "Hard slapshot"
+      },
+      {
+        "letter": "C",
+        "text": "Slapshot"
+      },
+      {
+        "letter": "D",
+        "text": "Deflection"
+      },
+      {
+        "letter": "E",
+        "text": "Wrist shot"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/32/580789/580789_Touch_110022878.mp4"
+  },
+  {
+    "id": 342018076,
+    "question_type": "Q3_hockey_shot_type",
+    "question": "Determine the type of shot shown in this hockey clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Backhand shot"
+      },
+      {
+        "letter": "B",
+        "text": "Wrist shot"
+      },
+      {
+        "letter": "C",
+        "text": "Deflection shot"
+      },
+      {
+        "letter": "D",
+        "text": "Deflection"
+      },
+      {
+        "letter": "E",
+        "text": "Slapshot"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/16/969763/969763_Shot on goal_342018076.mp4"
+  },
+  {
+    "id": 549123916,
+    "question_type": "Q4_hockey_zone_understanding",
+    "question": "From which zone of the rink does the Takeaway happen in this video?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Offensive Zone"
+      },
+      {
+        "letter": "B",
+        "text": "Defensive Zone"
+      },
+      {
+        "letter": "C",
+        "text": "Neutral Zone"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/55/674936/674936_Takeaway_549123916.mp4"
+  },
+  {
+    "id": 466755713,
+    "question_type": "Q4_hockey_zone_understanding",
+    "question": "From which zone on the ice does the Pass accurate take place?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Defensive Zone"
+      },
+      {
+        "letter": "B",
+        "text": "Neutral Zone"
+      },
+      {
+        "letter": "C",
+        "text": "Offensive Zone"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/7/2964/2964_Pass accurate_466755713.mp4"
+  },
+  {
+    "id": 374442866,
+    "question_type": "Q4_hockey_zone_understanding",
+    "question": "Based on the video, which zone does the Hit occur in?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Neutral Zone"
+      },
+      {
+        "letter": "B",
+        "text": "Defensive Zone"
+      },
+      {
+        "letter": "C",
+        "text": "Offensive Zone"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/76/28868/28868_Hit_374442866.mp4"
+  },
+  {
+    "id": 663314681,
+    "question_type": "Q4_hockey_zone_understanding",
+    "question": "Identify the zone where the Takeaway occurs in this hockey clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Defensive Zone"
+      },
+      {
+        "letter": "B",
+        "text": "Neutral Zone"
+      },
+      {
+        "letter": "C",
+        "text": "Offensive Zone"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/16/13449/13449_Takeaway_663314681.mp4"
+  },
+  {
+    "id": 828177071,
+    "question_type": "Q4_hockey_zone_understanding",
+    "question": "Indicate the zone of play where the Puck losses occurs in this hockey video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Defensive Zone"
+      },
+      {
+        "letter": "B",
+        "text": "Offensive Zone"
+      },
+      {
+        "letter": "C",
+        "text": "Neutral Zone"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/16/600405/600405_Puck losses_828177071.mp4"
+  },
+  {
+    "id": 346805974,
+    "question_type": "Q4_hockey_zone_understanding",
+    "question": "What is the name of the rink zone where the Foul happens?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Neutral Zone"
+      },
+      {
+        "letter": "B",
+        "text": "Offensive Zone"
+      },
+      {
+        "letter": "C",
+        "text": "Defensive Zone"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/16/592394/592394_Foul_346805974.mp4"
+  },
+  {
+    "id": 101144028,
+    "question_type": "Q4_hockey_zone_understanding",
+    "question": "From which zone on the ice does the Hit take place?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Defensive Zone"
+      },
+      {
+        "letter": "B",
+        "text": "Offensive Zone"
+      },
+      {
+        "letter": "C",
+        "text": "Neutral Zone"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/76/18728/18728_Hit_101144028.mp4"
+  },
+  {
+    "id": 84707577,
+    "question_type": "Q4_hockey_zone_understanding",
+    "question": "Identify which zone of the hockey rink the Puck losses occurs in.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Defensive Zone"
+      },
+      {
+        "letter": "B",
+        "text": "Neutral Zone"
+      },
+      {
+        "letter": "C",
+        "text": "Offensive Zone"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/11/5539/5539_Puck losses_84707577.mp4"
+  },
+  {
+    "id": 552399605,
+    "question_type": "Q5_hockey_player_jersey_number",
+    "question": "Identify the number on the player's jersey while performing Shot on goal in this hockey footage.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "41"
+      },
+      {
+        "letter": "B",
+        "text": "32"
+      },
+      {
+        "letter": "C",
+        "text": "35"
+      },
+      {
+        "letter": "D",
+        "text": "76"
+      },
+      {
+        "letter": "E",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/55/603696/603696_Shot on goal_552399605.mp4"
+  },
+  {
+    "id": 492264516,
+    "question_type": "Q5_hockey_player_jersey_number",
+    "question": "From the clip, identify the player's jersey number during Pass inaccurate.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "8"
+      },
+      {
+        "letter": "B",
+        "text": "16"
+      },
+      {
+        "letter": "C",
+        "text": "57"
+      },
+      {
+        "letter": "D",
+        "text": "93"
+      },
+      {
+        "letter": "E",
+        "text": "79"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/14/8538/8538_Pass inaccurate_492264516.mp4"
+  },
+  {
+    "id": 93637605,
+    "question_type": "Q5_hockey_player_jersey_number",
+    "question": "From the clip, identify the player's jersey number during Breakout successful.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "99"
+      },
+      {
+        "letter": "B",
+        "text": "35"
+      },
+      {
+        "letter": "C",
+        "text": "16"
+      },
+      {
+        "letter": "D",
+        "text": "25"
+      },
+      {
+        "letter": "E",
+        "text": "31"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/11/11377/11377_Breakout successful_93637605.mp4"
+  },
+  {
+    "id": 112029900,
+    "question_type": "Q5_hockey_player_jersey_number",
+    "question": "From the clip, identify the player's jersey number during Takeaway.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "17"
+      },
+      {
+        "letter": "B",
+        "text": "27"
+      },
+      {
+        "letter": "C",
+        "text": "35"
+      },
+      {
+        "letter": "D",
+        "text": "22"
+      },
+      {
+        "letter": "E",
+        "text": "14"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/37/602459/602459_Takeaway_112029900.mp4"
+  },
+  {
+    "id": 130865882,
+    "question_type": "Q5_hockey_player_jersey_number",
+    "question": "Identify the number on the player's uniform as they execute Puck battles in the video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "32"
+      },
+      {
+        "letter": "B",
+        "text": "75"
+      },
+      {
+        "letter": "C",
+        "text": "24"
+      },
+      {
+        "letter": "D",
+        "text": "18"
+      },
+      {
+        "letter": "E",
+        "text": "23"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/16/352/352_Puck battles_130865882.mp4"
+  },
+  {
+    "id": 218198099,
+    "question_type": "Q5_hockey_player_jersey_number",
+    "question": "From the clip, identify the player's jersey number during Faceoff.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "19"
+      },
+      {
+        "letter": "B",
+        "text": "14"
+      },
+      {
+        "letter": "C",
+        "text": "10"
+      },
+      {
+        "letter": "D",
+        "text": "11"
+      },
+      {
+        "letter": "E",
+        "text": "98"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/16/19010/19010_Faceoff_218198099.mp4"
+  },
+  {
+    "id": 271669705,
+    "question_type": "Q5_hockey_player_jersey_number",
+    "question": "What number does the skater wear while executing Takeaway in the clip?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "9"
+      },
+      {
+        "letter": "B",
+        "text": "53"
+      },
+      {
+        "letter": "C",
+        "text": "77"
+      },
+      {
+        "letter": "D",
+        "text": "22"
+      },
+      {
+        "letter": "E",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/30/581566/581566_Takeaway_271669705.mp4"
+  },
+  {
+    "id": 288433964,
+    "question_type": "Q5_hockey_player_jersey_number",
+    "question": "Identify the number on the player's jersey while performing Shot on goal in this hockey footage.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "61"
+      },
+      {
+        "letter": "B",
+        "text": "24"
+      },
+      {
+        "letter": "C",
+        "text": "58"
+      },
+      {
+        "letter": "D",
+        "text": "75"
+      },
+      {
+        "letter": "E",
+        "text": "50"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/87/664035/664035_Shot on goal_288433964.mp4"
+  },
+  {
+    "id": 644125476,
+    "question_type": "Q5_hockey_player_name_10000x40",
+    "question": "From the footage, name the player executing Touch on the ice.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Artemi Nizameyev"
+      },
+      {
+        "letter": "B",
+        "text": "Blake Steenerson"
+      },
+      {
+        "letter": "C",
+        "text": "Cameron Korpi"
+      },
+      {
+        "letter": "D",
+        "text": "Dallas Vieau"
+      },
+      {
+        "letter": "E",
+        "text": "Trevor Connelly"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/30/643479/643479_Pass accurate_644177141.mp4"
+  },
+  {
+    "id": 563708448,
+    "question_type": "Q5_hockey_player_name_10000x40",
+    "question": "Who is the player carrying out Touch in the hockey footage?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adam Hlinsky"
+      },
+      {
+        "letter": "B",
+        "text": "Vaclav Raichl"
+      },
+      {
+        "letter": "C",
+        "text": "Simon Katolicky"
+      },
+      {
+        "letter": "D",
+        "text": "Oskar Lisler"
+      },
+      {
+        "letter": "E",
+        "text": "Jakub Lev"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/16/1121422/1121422_Hit_563708991.mp4"
+  },
+  {
+    "id": 219366218,
+    "question_type": "Q5_hockey_player_name_10000x40",
+    "question": "Name the hockey player who performs Breakout successful in this segment.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Axel Lindstrom"
+      },
+      {
+        "letter": "B",
+        "text": "Janne Vayrynen"
+      },
+      {
+        "letter": "C",
+        "text": "Anton Schagerberg"
+      },
+      {
+        "letter": "D",
+        "text": "Niklas Dahlberg"
+      },
+      {
+        "letter": "E",
+        "text": "Melker Bergman"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/16/11578/11578_Pass accurate_219366649.mp4"
+  },
+  {
+    "id": 263850271,
+    "question_type": "Q5_hockey_player_name_10000x40",
+    "question": "Identify the player's name performing Faceoff in this hockey video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dylan Handel"
+      },
+      {
+        "letter": "B",
+        "text": "Malachi Franklin"
+      },
+      {
+        "letter": "C",
+        "text": "Lucas Ouellette"
+      },
+      {
+        "letter": "D",
+        "text": "Corson Nordick"
+      },
+      {
+        "letter": "E",
+        "text": "Nicolas Melnychuk"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/5077/937480/937480_Wide shot_263850274.mp4"
+  },
+  {
+    "id": 403434449,
+    "question_type": "Q5_hockey_player_name_10000x40",
+    "question": "Identify the player's name performing Touch in this hockey video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dmitri Gromov"
+      },
+      {
+        "letter": "B",
+        "text": "Vladimir Mukhin-Demidov"
+      },
+      {
+        "letter": "C",
+        "text": "Yegor Bashlykov"
+      },
+      {
+        "letter": "D",
+        "text": "Alexander Mirzabalayev"
+      },
+      {
+        "letter": "E",
+        "text": "Alexsander Zverev"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/2/1147589/1147589_Pass accurate_403437509.mp4"
+  },
+  {
+    "id": 80196897,
+    "question_type": "Q5_hockey_player_name_10000x40",
+    "question": "Name the hockey player who performs Touch in this segment.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aleksey Smirnov"
+      },
+      {
+        "letter": "B",
+        "text": "Roman Sinitsyn"
+      },
+      {
+        "letter": "C",
+        "text": "Artemi Mutovin"
+      },
+      {
+        "letter": "D",
+        "text": "Ilya Badanin"
+      },
+      {
+        "letter": "E",
+        "text": "Maxim Alipov"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/2/601717/601717_Touch_80196899.mp4"
+  },
+  {
+    "id": 399169140,
+    "question_type": "Q5_hockey_player_name_10000x40",
+    "question": "Determine which player performs Breakout successful in this hockey video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Luke Strickland"
+      },
+      {
+        "letter": "B",
+        "text": "Jacob Osborne"
+      },
+      {
+        "letter": "C",
+        "text": "Ethan Morrow"
+      },
+      {
+        "letter": "D",
+        "text": "Barret Joynt"
+      },
+      {
+        "letter": "E",
+        "text": "Caden Faulkner"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/27/645106/645106_Touch_399151359.mp4"
+  },
+  {
+    "id": 753593317,
+    "question_type": "Q5_hockey_player_name_10000x40",
+    "question": "What is the name of the skater who performs Touch in this video?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Roni Kuukasjarvi"
+      },
+      {
+        "letter": "B",
+        "text": "Luca Santala"
+      },
+      {
+        "letter": "C",
+        "text": "Otto Joutsen"
+      },
+      {
+        "letter": "D",
+        "text": "Topi Virtanen"
+      },
+      {
+        "letter": "E",
+        "text": "Luukas Kokkonen"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/16/1258558/1258558_Puck battles_753593665.mp4"
+  },
+  {
+    "id": 250108425,
+    "question_type": "Q6_which_period",
+    "question": "Identify the period of the game that is currently in progress.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3"
+      },
+      {
+        "letter": "B",
+        "text": "1"
+      },
+      {
+        "letter": "C",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/40/8539/8539_Puck battles_250108425.mp4"
+  },
+  {
+    "id": 446237632,
+    "question_type": "Q6_which_period",
+    "question": "What is the current period of the hockey game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "1"
+      },
+      {
+        "letter": "C",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/40/8282/8282_Zone entry successful_446237632.mp4"
+  },
+  {
+    "id": 481436506,
+    "question_type": "Q6_which_period",
+    "question": "What period is the game currently in?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "3"
+      },
+      {
+        "letter": "C",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/87/662960/662960_Puck losses_481436506.mp4"
+  },
+  {
+    "id": 625453986,
+    "question_type": "Q6_which_period",
+    "question": "Identify which period the game is in at this moment on the ice.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1"
+      },
+      {
+        "letter": "B",
+        "text": "2"
+      },
+      {
+        "letter": "C",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/65/584881/584881_Pass inaccurate_625453986.mp4"
+  },
+  {
+    "id": 104172051,
+    "question_type": "Q6_which_period",
+    "question": "Based on the scoreboard, identify the current period of play.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "3"
+      },
+      {
+        "letter": "C",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/76/9547/9547_Shot on goal_104172051.mp4"
+  },
+  {
+    "id": 582263875,
+    "question_type": "Q6_which_period",
+    "question": "Determine which period is being played in the hockey game.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1"
+      },
+      {
+        "letter": "B",
+        "text": "3"
+      },
+      {
+        "letter": "C",
+        "text": "2"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/5403/1203452/1203452_Touch_582263875.mp4"
+  },
+  {
+    "id": 399596794,
+    "question_type": "Q6_which_period",
+    "question": "Identify the period of the game that is currently in progress.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "3"
+      },
+      {
+        "letter": "C",
+        "text": "1"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/11/4476/4476_Zone entry successful_399596794.mp4"
+  },
+  {
+    "id": 282457060,
+    "question_type": "Q6_which_period",
+    "question": "What period is the game currently in?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1"
+      },
+      {
+        "letter": "B",
+        "text": "2"
+      },
+      {
+        "letter": "C",
+        "text": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/112/664197/664197_Shot on goal_282457060.mp4"
+  },
+  {
+    "id": 476223437,
+    "question_type": "Q6_which_teams",
+    "question": "Indicate the names of the two hockey teams shown in this clip.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fort Wayne Komets and Kansas City Mavericks"
+      },
+      {
+        "letter": "B",
+        "text": "Kansas City Mavericks and Tulsa Oilers"
+      },
+      {
+        "letter": "C",
+        "text": "Bloomington Bison and Allen Americans"
+      },
+      {
+        "letter": "D",
+        "text": "Allen Americans and Utah Grizzlies"
+      },
+      {
+        "letter": "E",
+        "text": "Railers Junior Hockey Club Premier and Colorado Eagles"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/40/36646/36646_Takeaway_476223437.mp4"
+  },
+  {
+    "id": 399169508,
+    "question_type": "Q6_which_teams",
+    "question": "Identify the two participating teams in this matchup.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pickering Panthers and St. Michael's Buzzers"
+      },
+      {
+        "letter": "B",
+        "text": "Aurora Tigers and Kingston Voyageurs"
+      },
+      {
+        "letter": "C",
+        "text": "Buffalo Jr. Sabres and Leamington Flyers"
+      },
+      {
+        "letter": "D",
+        "text": "Niagara Falls Canucks and King Rebellion"
+      },
+      {
+        "letter": "E",
+        "text": "Caledon Admirals and Wellington Dukes"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/27/643421/643421_Pass inaccurate_399169508.mp4"
+  },
+  {
+    "id": 492814773,
+    "question_type": "Q6_which_teams",
+    "question": "Identify the teams participating in this hockey game.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Halmstad Hammers HC J20 and IF Molndal Hockey J20"
+      },
+      {
+        "letter": "B",
+        "text": "Tyreso&Hanviken J20 and Nacka HK J20"
+      },
+      {
+        "letter": "C",
+        "text": "Stromsbro IF J20 and Backen HC J20"
+      },
+      {
+        "letter": "D",
+        "text": "AIK Harnosand J20 and Tyreso&Hanviken J20"
+      },
+      {
+        "letter": "E",
+        "text": "Haninge Anchors J20 and Nassjo HC J20"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/hockey_clips/22-23/7374/707336/707336_Shot on goal_492814773.mp4"
+  },
+  {
+    "id": 525756006,
+    "question_type": "Q6_which_teams",
+    "question": "Identify the teams playing against each other in this hockey video.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Grand Valley Stars 12U and Djurgardens IF U20"
+      },
+      {
+        "letter": "B",
+        "text": "ESV Kaufbeuren and Pioneers Vorarlberg"
+      },
+      {
+        "letter": "C",
+        "text": "Army West Point Black Knights and Molot Perm"
+      },
+      {
+        "letter": "D",
+        "text": "MHK Astana and Long Island Gulls 13U AAA"
+      },
+      {
+        "letter": "E",
+        "text": "MHK Gornyak Rudny and HC Neftekhimik Nizhnekamsk"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/23-24/16/694867/694867_Breakout successful_525756006.mp4"
+  },
+  {
+    "id": 249632904,
+    "question_type": "Q6_which_teams",
+    "question": "Identify the two participating teams in this matchup.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vernon Vipers and Alberni Bulldogs White"
+      },
+      {
+        "letter": "B",
+        "text": "Nanaimo Clippers and Wenatchee Wild BCHL"
+      },
+      {
+        "letter": "C",
+        "text": "Powell River Team Green and Alberni Bulldogs Red"
+      },
+      {
+        "letter": "D",
+        "text": "BCHL Top Prospects Team 1 and Trail Smoke Eaters (BCHL)"
+      },
+      {
+        "letter": "E",
+        "text": "Okotoks Oilers and Coquitlam Express"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/21-22/33/1093062/1093062_Puck battles_249632904.mp4"
+  },
+  {
+    "id": 88403729,
+    "question_type": "Q6_which_teams",
+    "question": "What are the names of the two teams featured in this game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Viggbyholms IK J18 and IF Bjorkloven U18"
+      },
+      {
+        "letter": "B",
+        "text": "Bodens HF J18 and Solleftea HK J18"
+      },
+      {
+        "letter": "C",
+        "text": "Lycksele SK J18 and SDE HF J18"
+      },
+      {
+        "letter": "D",
+        "text": "Almtuna IS U18 and SDE HF J18"
+      },
+      {
+        "letter": "E",
+        "text": "Leksands IF U18 and Huddinge IK"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/222/656739/656739_Puck battles_88403729.mp4"
+  },
+  {
+    "id": 132573822,
+    "question_type": "Q6_which_teams",
+    "question": "Which teams are facing each other in this video segment?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Westfort Maroons U15 AA and Ak Bars Kazan"
+      },
+      {
+        "letter": "B",
+        "text": "The Winchendon School Wapiti Boys Varsity and Gyergyoi Hoki Klub"
+      },
+      {
+        "letter": "C",
+        "text": "KRIF Hockey and Stanstead College Varsity"
+      },
+      {
+        "letter": "D",
+        "text": "Dallas Penguins 14U A and HC Prostejov"
+      },
+      {
+        "letter": "E",
+        "text": "HC Vita Hasten and Malmo Redhawks"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/16/597785/597785_Pass accurate_132573822.mp4"
+  },
+  {
+    "id": 91087413,
+    "question_type": "Q6_which_teams",
+    "question": "Identify the two participating teams in this matchup.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "HC Saryarka Karaganda and Gornyak-UGMK"
+      },
+      {
+        "letter": "B",
+        "text": "Gornyak-UGMK and HC Dynamo Balashikha"
+      },
+      {
+        "letter": "C",
+        "text": "Olimpiya Kirovo-Chepetsk and HC Zauralie Kurgan"
+      },
+      {
+        "letter": "D",
+        "text": "HC Dynamo Saint Petersburg and Tsen Tou Jilin"
+      },
+      {
+        "letter": "E",
+        "text": "CSK VVS Samara and HC Khimik Voskresensk"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/arc/yulupan/sports_dataset/hockey/hockey_clips/19-20/11/332/332_Takeaway_91087413.mp4"
+  }
+]

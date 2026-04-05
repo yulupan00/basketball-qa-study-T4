@@ -28,34 +28,6 @@ const QUESTIONS = [
     "correct_answer": "C"
   },
   {
-    "id": 226731767,
-    "question_type": "Q1_atomic_action_recognition",
-    "question": "What atomic action is shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Steal"
-      },
-      {
-        "letter": "B",
-        "text": "2 PT Made"
-      },
-      {
-        "letter": "C",
-        "text": "Assisting"
-      },
-      {
-        "letter": "D",
-        "text": "2 PT Missed"
-      },
-      {
-        "letter": "E",
-        "text": "Pick'n'Roll"
-      }
-    ],
-    "correct_answer": "E"
-  },
-  {
     "id": 156957175,
     "question_type": "Q1_atomic_action_recognition",
     "question": "What atomic action is shown in the video clip?",
@@ -82,34 +54,6 @@ const QUESTIONS = [
       }
     ],
     "correct_answer": "D"
-  },
-  {
-    "id": 183677193,
-    "question_type": "Q1_atomic_action_recognition",
-    "question": "What atomic action is shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Free Throw Missed"
-      },
-      {
-        "letter": "B",
-        "text": "Turnover"
-      },
-      {
-        "letter": "C",
-        "text": "Assisting"
-      },
-      {
-        "letter": "D",
-        "text": "Pick'n'Roll"
-      },
-      {
-        "letter": "E",
-        "text": "Screen/Post"
-      }
-    ],
-    "correct_answer": "B"
   },
   {
     "id": 243070298,
@@ -168,34 +112,6 @@ const QUESTIONS = [
     "correct_answer": "D"
   },
   {
-    "id": 135801032,
-    "question_type": "Q2_action_sequence",
-    "question": "What is the correct sequence of actions shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "3 Pt Missed, Rebound, Foul"
-      },
-      {
-        "letter": "B",
-        "text": "Rebound, 3 Pt Missed, Rebound"
-      },
-      {
-        "letter": "C",
-        "text": "Steal, 2 Pt Made, Assisting"
-      },
-      {
-        "letter": "D",
-        "text": "2 Pt Missed, Rebound, Assisting"
-      },
-      {
-        "letter": "E",
-        "text": "Rebound, 2+1, Foul"
-      }
-    ],
-    "correct_answer": "E"
-  },
-  {
     "id": 166013966,
     "question_type": "Q2_action_sequence",
     "question": "What is the correct sequence of actions shown in the video clip?",
@@ -222,34 +138,6 @@ const QUESTIONS = [
       }
     ],
     "correct_answer": "A"
-  },
-  {
-    "id": 281897386,
-    "question_type": "Q2_action_sequence",
-    "question": "What is the correct sequence of actions shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Post, Assisting, Foul"
-      },
-      {
-        "letter": "B",
-        "text": "Pick'n'Roll, 2 Pt Missed, Rebound"
-      },
-      {
-        "letter": "C",
-        "text": "2 Pt Missed, Rebound, 2 Pt Made"
-      },
-      {
-        "letter": "D",
-        "text": "Pick'n'Roll, 3 Pt Missed, Rebound"
-      },
-      {
-        "letter": "E",
-        "text": "3 Pt Missed, Rebound, Foul"
-      }
-    ],
-    "correct_answer": "C"
   },
   {
     "id": 134524803,
@@ -280,38 +168,6 @@ const QUESTIONS = [
     "correct_answer": "B"
   },
   {
-    "id": 217854794,
-    "question_type": "Q3_contested_shot",
-    "question": "Was the shot in the video contested or uncontested?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Uncontested"
-      },
-      {
-        "letter": "B",
-        "text": "Contested"
-      }
-    ],
-    "correct_answer": "A"
-  },
-  {
-    "id": 170843992,
-    "question_type": "Q3_contested_shot",
-    "question": "Was the shot in the video contested or uncontested?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Contested"
-      },
-      {
-        "letter": "B",
-        "text": "Uncontested"
-      }
-    ],
-    "correct_answer": "B"
-  },
-  {
     "id": 224923420,
     "question_type": "Q3_contested_shot",
     "question": "Was the shot in the video contested or uncontested?",
@@ -326,22 +182,6 @@ const QUESTIONS = [
       }
     ],
     "correct_answer": "B"
-  },
-  {
-    "id": 147598024,
-    "question_type": "Q3_contested_shot",
-    "question": "Was the shot in the video contested or uncontested?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Contested"
-      },
-      {
-        "letter": "B",
-        "text": "Uncontested"
-      }
-    ],
-    "correct_answer": "A"
   },
   {
     "id": 268774187,
@@ -444,62 +284,6 @@ const QUESTIONS = [
     "correct_answer": "E"
   },
   {
-    "id": 212683904,
-    "question_type": "Q3_dribble_move",
-    "question": "What dribble move is shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Fadeaway"
-      },
-      {
-        "letter": "B",
-        "text": "Fake shot"
-      },
-      {
-        "letter": "C",
-        "text": "Step back"
-      },
-      {
-        "letter": "D",
-        "text": "Spin move"
-      },
-      {
-        "letter": "E",
-        "text": "In & out"
-      }
-    ],
-    "correct_answer": "E"
-  },
-  {
-    "id": 202937118,
-    "question_type": "Q3_dribble_move",
-    "question": "What dribble move is shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "In & out"
-      },
-      {
-        "letter": "B",
-        "text": "Quick first step"
-      },
-      {
-        "letter": "C",
-        "text": "Step back"
-      },
-      {
-        "letter": "D",
-        "text": "Changing direction"
-      },
-      {
-        "letter": "E",
-        "text": "Jab step"
-      }
-    ],
-    "correct_answer": "C"
-  },
-  {
     "id": 254158258,
     "question_type": "Q3_drive_direction",
     "question": "What is the direction of the drive in the video clip?",
@@ -516,22 +300,6 @@ const QUESTIONS = [
     "correct_answer": "B"
   },
   {
-    "id": 253738191,
-    "question_type": "Q3_drive_direction",
-    "question": "What is the direction of the drive in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Drives Left"
-      },
-      {
-        "letter": "B",
-        "text": "Drives Right"
-      }
-    ],
-    "correct_answer": "A"
-  },
-  {
     "id": 151737746,
     "question_type": "Q3_drive_direction",
     "question": "What is the direction of the drive in the video clip?",
@@ -543,22 +311,6 @@ const QUESTIONS = [
       {
         "letter": "B",
         "text": "Drives Left"
-      }
-    ],
-    "correct_answer": "A"
-  },
-  {
-    "id": 117958741,
-    "question_type": "Q3_drive_direction",
-    "question": "What is the direction of the drive in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Drives Left"
-      },
-      {
-        "letter": "B",
-        "text": "Drives Right"
       }
     ],
     "correct_answer": "A"
@@ -599,90 +351,6 @@ const QUESTIONS = [
       {
         "letter": "D",
         "text": "Pick'n'Roll"
-      },
-      {
-        "letter": "E",
-        "text": "Pick-n-roll without a ball"
-      }
-    ],
-    "correct_answer": "B"
-  },
-  {
-    "id": 134493441,
-    "question_type": "Q3_play_type",
-    "question": "What is the play type shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Pick-n-roll without a ball"
-      },
-      {
-        "letter": "B",
-        "text": "Isolation"
-      },
-      {
-        "letter": "C",
-        "text": "Screen off"
-      },
-      {
-        "letter": "D",
-        "text": "Transition"
-      },
-      {
-        "letter": "E",
-        "text": "Catch and shoot"
-      }
-    ],
-    "correct_answer": "E"
-  },
-  {
-    "id": 283049646,
-    "question_type": "Q3_play_type",
-    "question": "What is the play type shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Isolation"
-      },
-      {
-        "letter": "B",
-        "text": "Post"
-      },
-      {
-        "letter": "C",
-        "text": "Catch and Drive"
-      },
-      {
-        "letter": "D",
-        "text": "Pick-n-roll without a ball"
-      },
-      {
-        "letter": "E",
-        "text": "Pick'n'pop"
-      }
-    ],
-    "correct_answer": "E"
-  },
-  {
-    "id": 171630727,
-    "question_type": "Q3_play_type",
-    "question": "What is the play type shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Catch and shoot"
-      },
-      {
-        "letter": "B",
-        "text": "Post"
-      },
-      {
-        "letter": "C",
-        "text": "Screen off"
-      },
-      {
-        "letter": "D",
-        "text": "Catch and Drive"
       },
       {
         "letter": "E",
@@ -760,46 +428,6 @@ const QUESTIONS = [
     "correct_answer": "B"
   },
   {
-    "id": 175785042,
-    "question_type": "Q3_shooting_hand",
-    "question": "What is the shooting hand of the player in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Right"
-      },
-      {
-        "letter": "B",
-        "text": "Both"
-      },
-      {
-        "letter": "C",
-        "text": "Left"
-      }
-    ],
-    "correct_answer": "B"
-  },
-  {
-    "id": 176156740,
-    "question_type": "Q3_shooting_hand",
-    "question": "What is the shooting hand of the player in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Right"
-      },
-      {
-        "letter": "B",
-        "text": "Both"
-      },
-      {
-        "letter": "C",
-        "text": "Left"
-      }
-    ],
-    "correct_answer": "B"
-  },
-  {
     "id": 263903552,
     "question_type": "Q3_shooting_hand",
     "question": "What is the shooting hand of the player in the video clip?",
@@ -848,34 +476,6 @@ const QUESTIONS = [
     "correct_answer": "E"
   },
   {
-    "id": 231188310,
-    "question_type": "Q3_shot_type",
-    "question": "What is the shot type shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Reverse"
-      },
-      {
-        "letter": "B",
-        "text": "Dunk"
-      },
-      {
-        "letter": "C",
-        "text": "Jumper"
-      },
-      {
-        "letter": "D",
-        "text": "Lay up"
-      },
-      {
-        "letter": "E",
-        "text": "Alley oop"
-      }
-    ],
-    "correct_answer": "C"
-  },
-  {
     "id": 266581026,
     "question_type": "Q3_shot_type",
     "question": "What is the shot type shown in the video clip?",
@@ -902,34 +502,6 @@ const QUESTIONS = [
       }
     ],
     "correct_answer": "B"
-  },
-  {
-    "id": 122942291,
-    "question_type": "Q3_shot_type",
-    "question": "What is the shot type shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Alley oop"
-      },
-      {
-        "letter": "B",
-        "text": "Jumper"
-      },
-      {
-        "letter": "C",
-        "text": "Dunk"
-      },
-      {
-        "letter": "D",
-        "text": "Reverse"
-      },
-      {
-        "letter": "E",
-        "text": "Lay up"
-      }
-    ],
-    "correct_answer": "C"
   },
   {
     "id": 140566184,
@@ -1016,118 +588,6 @@ const QUESTIONS = [
     "correct_answer": "D"
   },
   {
-    "id": 278884746,
-    "question_type": "Q4_spatial_position_non_descriptive",
-    "question": "Review the Shot Missed displayed in the video clip and pick the correct option indicating the location on the court where the shot was taken. Reply using only the corresponding letter.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Corner"
-      },
-      {
-        "letter": "B",
-        "text": "High Post"
-      },
-      {
-        "letter": "C",
-        "text": "Wing"
-      },
-      {
-        "letter": "D",
-        "text": "Restricted Area"
-      },
-      {
-        "letter": "E",
-        "text": "Point"
-      }
-    ],
-    "correct_answer": "E"
-  },
-  {
-    "id": 222844477,
-    "question_type": "Q4_spatial_position_non_descriptive",
-    "question": "Review the Shot Missed displayed in the video clip and pick the correct option indicating the location on the court where the shot was taken. Reply using only the corresponding letter.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Restricted Area"
-      },
-      {
-        "letter": "B",
-        "text": "High Post"
-      },
-      {
-        "letter": "C",
-        "text": "Short Corner"
-      },
-      {
-        "letter": "D",
-        "text": "Top"
-      },
-      {
-        "letter": "E",
-        "text": "Low Post"
-      }
-    ],
-    "correct_answer": "D"
-  },
-  {
-    "id": 125650614,
-    "question_type": "Q4_spatial_position_non_descriptive",
-    "question": "Analyze the Shot Missed shown in the video clip and select the correct description of the court area where the shot occurred. Provide only the corresponding letter as your answer.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Top"
-      },
-      {
-        "letter": "B",
-        "text": "Corner"
-      },
-      {
-        "letter": "C",
-        "text": "High Post"
-      },
-      {
-        "letter": "D",
-        "text": "Point"
-      },
-      {
-        "letter": "E",
-        "text": "Restricted Area"
-      }
-    ],
-    "correct_answer": "D"
-  },
-  {
-    "id": 168549308,
-    "question_type": "Q5_player_name_same_team_update",
-    "question": "Based on the 2+1 displayed in the clip, identify the player's name. Select the correct option and respond with the corresponding letter only.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Brandon Sampson"
-      },
-      {
-        "letter": "B",
-        "text": "Lamine Diane"
-      },
-      {
-        "letter": "C",
-        "text": "Julian Washburn"
-      },
-      {
-        "letter": "D",
-        "text": "Justin Robinson"
-      },
-      {
-        "letter": "E",
-        "text": "Paul Reed"
-      }
-    ],
-    "correct_answer": "C"
-  },
-  {
     "id": 245941070,
     "question_type": "Q5_player_name_same_team_update",
     "question": "Watch the Free Throw Made in the clip and determine the player's name. Select the right option and respond with just the corresponding letter.",
@@ -1154,34 +614,6 @@ const QUESTIONS = [
       }
     ],
     "correct_answer": "C"
-  },
-  {
-    "id": 185361900,
-    "question_type": "Q5_player_name_same_team_update",
-    "question": "Analyze the Rebound shown in the clip and select the correct player's name. Provide only the corresponding letter as your answer.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Asbjorn Midtgaard"
-      },
-      {
-        "letter": "B",
-        "text": "Arunas Mikalauskas"
-      },
-      {
-        "letter": "C",
-        "text": "Jamayro de Windt"
-      },
-      {
-        "letter": "D",
-        "text": "Kevin Jonathan"
-      },
-      {
-        "letter": "E",
-        "text": "Marijn Jasper Ververs"
-      }
-    ],
-    "correct_answer": "A"
   },
   {
     "id": 140017079,
@@ -1238,62 +670,6 @@ const QUESTIONS = [
       }
     ],
     "correct_answer": "E"
-  },
-  {
-    "id": 222642463,
-    "question_type": "Q5_player_number_two_team_similar_update",
-    "question": "Based on the 3 Pt Missed shown in the clip, determine the player's jersey number and team name. Select the correct option and provide only the corresponding letter as your answer.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "14, ASD FILA San Martino Di Lupari"
-      },
-      {
-        "letter": "B",
-        "text": "22, Famila Wuber Schio"
-      },
-      {
-        "letter": "C",
-        "text": "10, Famila Wuber Schio"
-      },
-      {
-        "letter": "D",
-        "text": "5, Famila Wuber Schio"
-      },
-      {
-        "letter": "E",
-        "text": "31, ASD FILA San Martino Di Lupari"
-      }
-    ],
-    "correct_answer": "D"
-  },
-  {
-    "id": 195818283,
-    "question_type": "Q5_player_number_two_team_similar_update",
-    "question": "Review the 2 Pt Made displayed in the clip and pick the correct option identifying the player's jersey number and team name. Reply using only the corresponding letter.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "37, Zorg en Zekerheid Leiden"
-      },
-      {
-        "letter": "B",
-        "text": "33, Bahcesehir Koleji SK"
-      },
-      {
-        "letter": "C",
-        "text": "13, Bahcesehir Koleji SK"
-      },
-      {
-        "letter": "D",
-        "text": "4, Zorg en Zekerheid Leiden"
-      },
-      {
-        "letter": "E",
-        "text": "17, Bahcesehir Koleji SK"
-      }
-    ],
-    "correct_answer": "A"
   },
   {
     "id": 266775945,
@@ -1380,26 +756,6 @@ const QUESTIONS = [
     "correct_answer": "D"
   },
   {
-    "id": 135863817,
-    "question_type": "Q5_player_position",
-    "question": "Analyze the Pick'n'Roll displayed in the clip and select the correct option indicating the player's position. Provide only the corresponding letter as your answer.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Center"
-      },
-      {
-        "letter": "B",
-        "text": "Forward"
-      },
-      {
-        "letter": "C",
-        "text": "Guard"
-      }
-    ],
-    "correct_answer": "B"
-  },
-  {
     "id": 169964408,
     "question_type": "Q5_player_position",
     "question": "Analyze the Post displayed in the clip and select the correct option indicating the player's position. Provide only the corresponding letter as your answer.",
@@ -1431,26 +787,6 @@ const QUESTIONS = [
       {
         "letter": "B",
         "text": "Guard"
-      },
-      {
-        "letter": "C",
-        "text": "Forward"
-      }
-    ],
-    "correct_answer": "A"
-  },
-  {
-    "id": 224216364,
-    "question_type": "Q5_player_position",
-    "question": "Watch the Assisting in the clip and identify the player's position. Select the right option and respond with just the corresponding letter.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Guard"
-      },
-      {
-        "letter": "B",
-        "text": "Center"
       },
       {
         "letter": "C",
@@ -1518,46 +854,6 @@ const QUESTIONS = [
       }
     ],
     "correct_answer": "C"
-  },
-  {
-    "id": 176206274,
-    "question_type": "Q5_player_skill_level",
-    "question": "Watch the 3 Pt Shot in the clip and evaluate the player's 3 Pt Shooting skill level. Pick the right option and respond with just the corresponding letter.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Average"
-      },
-      {
-        "letter": "B",
-        "text": "Excellent"
-      },
-      {
-        "letter": "C",
-        "text": "Poor"
-      }
-    ],
-    "correct_answer": "A"
-  },
-  {
-    "id": 153185651,
-    "question_type": "Q5_player_skill_level",
-    "question": "Observe the 2 Pt Shot in the clip and assess the player's 2 Pt Shooting skill level. Choose the correct option and respond with the corresponding letter only.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Poor"
-      },
-      {
-        "letter": "B",
-        "text": "Excellent"
-      },
-      {
-        "letter": "C",
-        "text": "Average"
-      }
-    ],
-    "correct_answer": "B"
   },
   {
     "id": 161781697,
@@ -1664,62 +960,6 @@ const QUESTIONS = [
     "correct_answer": "E"
   },
   {
-    "id": 153938562,
-    "question_type": "Q6_current_score_similar",
-    "question": "What is the current score shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "78 - 75"
-      },
-      {
-        "letter": "B",
-        "text": "77 - 80"
-      },
-      {
-        "letter": "C",
-        "text": "89 - 89"
-      },
-      {
-        "letter": "D",
-        "text": "63 - 67"
-      },
-      {
-        "letter": "E",
-        "text": "88 - 89"
-      }
-    ],
-    "correct_answer": "B"
-  },
-  {
-    "id": 221691451,
-    "question_type": "Q6_current_score_similar",
-    "question": "What is the current score shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "74 - 81"
-      },
-      {
-        "letter": "B",
-        "text": "73 - 77"
-      },
-      {
-        "letter": "C",
-        "text": "69 - 73"
-      },
-      {
-        "letter": "D",
-        "text": "81 - 87"
-      },
-      {
-        "letter": "E",
-        "text": "67 - 73"
-      }
-    ],
-    "correct_answer": "B"
-  },
-  {
     "id": 155031921,
     "question_type": "Q6_remaining_time",
     "question": "When 2 Pt Made occurred in the clip, select the correct option that describes closest to the remaining quarter time. Provide only the corresponding letter as your answer.",
@@ -1748,35 +988,7 @@ const QUESTIONS = [
     "correct_answer": "B"
   },
   {
-    "id": 152393043,
-    "question_type": "Q6_remaining_time",
-    "question": "Analyze the moment when 3 Pt Made happened in the clip and select the option that most accurately describes the remaining quarter time. Provide only the corresponding letter as your answer.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "9:12"
-      },
-      {
-        "letter": "B",
-        "text": "4:50"
-      },
-      {
-        "letter": "C",
-        "text": "3:04"
-      },
-      {
-        "letter": "D",
-        "text": "0:13"
-      },
-      {
-        "letter": "E",
-        "text": "6:02"
-      }
-    ],
-    "correct_answer": "C"
-  },
-  {
-    "id": 267424100,
+    "id": 267424101,
     "question_type": "Q6_remaining_time",
     "question": "When 3 Pt Missed occurred in the clip, choose the correct option that best estimates the remaining quarter time. Respond with the corresponding letter only.",
     "options": [
@@ -1799,34 +1011,6 @@ const QUESTIONS = [
       {
         "letter": "E",
         "text": "8:29"
-      }
-    ],
-    "correct_answer": "C"
-  },
-  {
-    "id": 263749776,
-    "question_type": "Q6_remaining_time",
-    "question": "Review the clip and determine the closest estimate of the remaining quarter time when 3 Pt Missed took place. Reply using only the corresponding letter.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "6:31"
-      },
-      {
-        "letter": "B",
-        "text": "3:47"
-      },
-      {
-        "letter": "C",
-        "text": "7:52"
-      },
-      {
-        "letter": "D",
-        "text": "9:53"
-      },
-      {
-        "letter": "E",
-        "text": "0:24"
       }
     ],
     "correct_answer": "C"
@@ -1888,34 +1072,6 @@ const QUESTIONS = [
     "correct_answer": "E"
   },
   {
-    "id": 241973023,
-    "question_type": "Q6_shot_clock",
-    "question": "Analyze the moment when 2 Pt Made happened in the clip and select the option that most accurately describes the remaining shot clock. Provide only the corresponding letter as your answer.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "4"
-      },
-      {
-        "letter": "B",
-        "text": "0"
-      },
-      {
-        "letter": "C",
-        "text": "20"
-      },
-      {
-        "letter": "D",
-        "text": "8"
-      },
-      {
-        "letter": "E",
-        "text": "12"
-      }
-    ],
-    "correct_answer": "C"
-  },
-  {
     "id": 183494408,
     "question_type": "Q6_shot_clock",
     "question": "When 2 Pt Made occurred in the clip, select the correct option that describes closest to the remaining shot clock. Provide only the corresponding letter as your answer.",
@@ -1942,34 +1098,6 @@ const QUESTIONS = [
       }
     ],
     "correct_answer": "B"
-  },
-  {
-    "id": 173448378,
-    "question_type": "Q6_shot_clock",
-    "question": "When 3 Pt Made occurred in the clip, choose the correct option that best estimates the remaining shot clock time. Respond with the corresponding letter only.",
-    "options": [
-      {
-        "letter": "A",
-        "text": "10"
-      },
-      {
-        "letter": "B",
-        "text": "2"
-      },
-      {
-        "letter": "C",
-        "text": "14"
-      },
-      {
-        "letter": "D",
-        "text": "22"
-      },
-      {
-        "letter": "E",
-        "text": "6"
-      }
-    ],
-    "correct_answer": "D"
   },
   {
     "id": 152881452,
@@ -2000,30 +1128,6 @@ const QUESTIONS = [
     "correct_answer": "B"
   },
   {
-    "id": 206929430,
-    "question_type": "Q6_which_quarter",
-    "question": "What is the current quarter shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "2"
-      },
-      {
-        "letter": "B",
-        "text": "3"
-      },
-      {
-        "letter": "C",
-        "text": "4"
-      },
-      {
-        "letter": "D",
-        "text": "1"
-      }
-    ],
-    "correct_answer": "C"
-  },
-  {
     "id": 206301050,
     "question_type": "Q6_which_quarter",
     "question": "What is the current quarter shown in the video clip?",
@@ -2034,30 +1138,6 @@ const QUESTIONS = [
       },
       {
         "letter": "B",
-        "text": "2"
-      }
-    ],
-    "correct_answer": "A"
-  },
-  {
-    "id": 190592421,
-    "question_type": "Q6_which_quarter",
-    "question": "What is the current quarter shown in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "3"
-      },
-      {
-        "letter": "B",
-        "text": "1"
-      },
-      {
-        "letter": "C",
-        "text": "4"
-      },
-      {
-        "letter": "D",
         "text": "2"
       }
     ],
@@ -2140,62 +1220,6 @@ const QUESTIONS = [
     "correct_answer": "D"
   },
   {
-    "id": 154513279,
-    "question_type": "Q6_which_teams",
-    "question": "What are the two teams playing in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "fresno pacific and Florida Gulf Coast"
-      },
-      {
-        "letter": "B",
-        "text": "Hillsdale and LSU"
-      },
-      {
-        "letter": "C",
-        "text": "Cortland Red Dragons and UNLV"
-      },
-      {
-        "letter": "D",
-        "text": "Houston and Wisconsin Lutheran"
-      },
-      {
-        "letter": "E",
-        "text": "Indiana and Nebraska"
-      }
-    ],
-    "correct_answer": "E"
-  },
-  {
-    "id": 166150057,
-    "question_type": "Q6_which_teams",
-    "question": "What are the two teams playing in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Grand Valley State and Oral Roberts"
-      },
-      {
-        "letter": "B",
-        "text": "Apprentice and Colgate"
-      },
-      {
-        "letter": "C",
-        "text": "Navy and University of Arizona"
-      },
-      {
-        "letter": "D",
-        "text": "Murray State and Southeast Missouri State"
-      },
-      {
-        "letter": "E",
-        "text": "Carver Bible and Saint Mary's"
-      }
-    ],
-    "correct_answer": "D"
-  },
-  {
     "id": 142548571,
     "question_type": "Q6_which_teams",
     "question": "What are the two teams playing in the video clip?",
@@ -2222,33 +1246,5 @@ const QUESTIONS = [
       }
     ],
     "correct_answer": "A"
-  },
-  {
-    "id": 147658851,
-    "question_type": "Q6_which_teams",
-    "question": "What are the two teams playing in the video clip?",
-    "options": [
-      {
-        "letter": "A",
-        "text": "Happy Casa Brindisi and Hapoel UNET Holon"
-      },
-      {
-        "letter": "B",
-        "text": "Kauhajoki Karhut and SIG Strasbourg"
-      },
-      {
-        "letter": "C",
-        "text": "Bakken Bears and Happy Casa Brindisi"
-      },
-      {
-        "letter": "D",
-        "text": "Happy Casa Brindisi and JDA Dijon Basket"
-      },
-      {
-        "letter": "E",
-        "text": "Iberostar Tenerife and BC Balkan Botevgrad"
-      }
-    ],
-    "correct_answer": "D"
   }
 ];
