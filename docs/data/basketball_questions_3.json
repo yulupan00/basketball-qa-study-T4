@@ -1,0 +1,1292 @@
+[
+  {
+    "id": "Q1_654_620919",
+    "question_type": "Q1",
+    "question": "Analyze the 10-minute segment from the 1st period. Focus on the player who makes a free throw between time 1:30 and 1:40. How many total three-pointers made will this specific player record during the 2nd period?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3"
+      },
+      {
+        "letter": "B",
+        "text": "1"
+      },
+      {
+        "letter": "C",
+        "text": "2"
+      },
+      {
+        "letter": "D",
+        "text": "6"
+      },
+      {
+        "letter": "E",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q1/620919_1.mp4"
+  },
+  {
+    "id": "Q1_114_433199",
+    "question_type": "Q1",
+    "question": "Analyze the 15-minute segment from the 1st period. Focus on the player who makes a free throw between time 0:32 and 0:42. How many total two-pointers made will this specific player record during the 2nd period?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "6"
+      },
+      {
+        "letter": "B",
+        "text": "9"
+      },
+      {
+        "letter": "C",
+        "text": "8"
+      },
+      {
+        "letter": "D",
+        "text": "1"
+      },
+      {
+        "letter": "E",
+        "text": "4"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q1/433199_1.mp4"
+  },
+  {
+    "id": "Q1_25_431955",
+    "question_type": "Q1",
+    "question": "Analyze the 7-minute segment from the 1st period. Focus on the player who commits a turnover between time 1:32 and 1:42. How many total two-pointers made will this specific player record from the end of this segment until the end of the 1st period?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "9"
+      },
+      {
+        "letter": "B",
+        "text": "8"
+      },
+      {
+        "letter": "C",
+        "text": "3"
+      },
+      {
+        "letter": "D",
+        "text": "2"
+      },
+      {
+        "letter": "E",
+        "text": "6"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q1/431955_1.mp4"
+  },
+  {
+    "id": "Q1_281_846872",
+    "question_type": "Q1",
+    "question": "Analyze the 10-minute segment from the 1st period. Focus on the player who makes a three-point attempt between time 1:38 and 1:48. How many total three-pointers made will this specific player record from the end of this segment until the conclusion of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "4"
+      },
+      {
+        "letter": "B",
+        "text": "2"
+      },
+      {
+        "letter": "C",
+        "text": "3"
+      },
+      {
+        "letter": "D",
+        "text": "1"
+      },
+      {
+        "letter": "E",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q1/846872_1.mp4"
+  },
+  {
+    "id": "Q1_250_409072",
+    "question_type": "Q1",
+    "question": "Analyze the 3-minute segment from the 1st period. Focus on the player who makes a two-point attempt between time 0:50 and 1:00. How many total assists will this specific player record from the end of this segment until the conclusion of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "6"
+      },
+      {
+        "letter": "C",
+        "text": "7"
+      },
+      {
+        "letter": "D",
+        "text": "4"
+      },
+      {
+        "letter": "E",
+        "text": "9"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q1/409072_1.mp4"
+  },
+  {
+    "id": "Q10_228_937127",
+    "question_type": "Q10",
+    "question": "Analyze the 12-minute segment of the game. Observe the player who misses a three-point attempt between time 6:10 and 6:20. Which shot type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Floater"
+      },
+      {
+        "letter": "B",
+        "text": "Hook"
+      },
+      {
+        "letter": "C",
+        "text": "Dunk"
+      },
+      {
+        "letter": "D",
+        "text": "Lay up"
+      },
+      {
+        "letter": "E",
+        "text": "Jumper"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q10/937127_2.mp4"
+  },
+  {
+    "id": "Q10_142_998123",
+    "question_type": "Q10",
+    "question": "Analyze the 5-minute segment of the game. Observe the player who misses a two-point attempt between time 0:43 and 0:53. Which shot type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dunk"
+      },
+      {
+        "letter": "B",
+        "text": "Floater"
+      },
+      {
+        "letter": "C",
+        "text": "Hook"
+      },
+      {
+        "letter": "D",
+        "text": "Lay up"
+      },
+      {
+        "letter": "E",
+        "text": "Jumper"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q10/998123_1.mp4"
+  },
+  {
+    "id": "Q10_104_404325",
+    "question_type": "Q10",
+    "question": "Analyze the 12-minute segment of the game. Observe the player who commits a foul between time 0:19 and 0:29. Which shot type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dunk"
+      },
+      {
+        "letter": "B",
+        "text": "Lay up"
+      },
+      {
+        "letter": "C",
+        "text": "Floater"
+      },
+      {
+        "letter": "D",
+        "text": "Jumper"
+      },
+      {
+        "letter": "E",
+        "text": "Hook"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q10/404325_3.mp4"
+  },
+  {
+    "id": "Q10_692_830930",
+    "question_type": "Q10",
+    "question": "Analyze the 5-minute segment of the game. Observe the player who grabs a rebound between time 1:37 and 1:47. Which shot type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dunk"
+      },
+      {
+        "letter": "B",
+        "text": "Jumper"
+      },
+      {
+        "letter": "C",
+        "text": "Lay up"
+      },
+      {
+        "letter": "D",
+        "text": "Floater"
+      },
+      {
+        "letter": "E",
+        "text": "Hook"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q10/830930_3.mp4"
+  },
+  {
+    "id": "Q10_558_988973",
+    "question_type": "Q10",
+    "question": "Analyze the 12-minute segment of the game. Observe the player who commits a turnover between time 10:42 and 10:52. Which shot type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Jumper"
+      },
+      {
+        "letter": "B",
+        "text": "Floater"
+      },
+      {
+        "letter": "C",
+        "text": "Lay up"
+      },
+      {
+        "letter": "D",
+        "text": "Dunk"
+      },
+      {
+        "letter": "E",
+        "text": "Hook"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q10/988973_1.mp4"
+  },
+  {
+    "id": "Q2_89_987985",
+    "question_type": "Q2",
+    "question": "Watch a 10-minute segment from period 1. How many two-point misses will team Jacksonville State record in the remainder of the game in regulation time?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "17"
+      },
+      {
+        "letter": "B",
+        "text": "4"
+      },
+      {
+        "letter": "C",
+        "text": "18"
+      },
+      {
+        "letter": "D",
+        "text": "7"
+      },
+      {
+        "letter": "E",
+        "text": "11"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q2/987985_1.mp4"
+  },
+  {
+    "id": "Q2_604_403348",
+    "question_type": "Q2",
+    "question": "Watch a 3-minute segment from period 1. How many three-point misses will team BC Lietkabelis Panevezys record in the remainder of the game in regulation time?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "13"
+      },
+      {
+        "letter": "C",
+        "text": "7"
+      },
+      {
+        "letter": "D",
+        "text": "12"
+      },
+      {
+        "letter": "E",
+        "text": "24"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q2/403348_1.mp4"
+  },
+  {
+    "id": "Q2_432_824651",
+    "question_type": "Q2",
+    "question": "Watch a 5-minute segment from period 1. How many field goals made will team Valparaiso record in the remainder of the game in regulation time?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "17"
+      },
+      {
+        "letter": "B",
+        "text": "22"
+      },
+      {
+        "letter": "C",
+        "text": "11"
+      },
+      {
+        "letter": "D",
+        "text": "23"
+      },
+      {
+        "letter": "E",
+        "text": "5"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q2/824651_1.mp4"
+  },
+  {
+    "id": "Q2_32_796140",
+    "question_type": "Q2",
+    "question": "Watch a 3-minute segment from period 1. How many three-pointers made will team Promitheas Patras BC record in the remainder of the game in regulation time?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "9"
+      },
+      {
+        "letter": "B",
+        "text": "11"
+      },
+      {
+        "letter": "C",
+        "text": "6"
+      },
+      {
+        "letter": "D",
+        "text": "3"
+      },
+      {
+        "letter": "E",
+        "text": "14"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q2/796140_1.mp4"
+  },
+  {
+    "id": "Q2_30_971957",
+    "question_type": "Q2",
+    "question": "Watch a 3-minute segment from period 3. How many field goal attempts will team Kansas State record in the remainder of the game in regulation time?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "6"
+      },
+      {
+        "letter": "B",
+        "text": "13"
+      },
+      {
+        "letter": "C",
+        "text": "12"
+      },
+      {
+        "letter": "D",
+        "text": "25"
+      },
+      {
+        "letter": "E",
+        "text": "20"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q2/971957_3.mp4"
+  },
+  {
+    "id": "Q3_95_920361",
+    "question_type": "Q3",
+    "question": "Analyze the 10-minute segment from the 1st period. Which player will be the first to reach 15 points by the end of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who misses a two-point attempt between time 7:25 and 7:35"
+      },
+      {
+        "letter": "B",
+        "text": "The player who misses a two-point attempt between time 5:35 and 5:45"
+      },
+      {
+        "letter": "C",
+        "text": "The player who misses a free throw between time 0:51 and 1:01"
+      },
+      {
+        "letter": "D",
+        "text": "The player who rebound between time 5:39 and 5:49"
+      },
+      {
+        "letter": "E",
+        "text": "The player who misses a two-point attempt between time 7:52 and 8:02"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q3/920361_1.mp4"
+  },
+  {
+    "id": "Q3_223_868868",
+    "question_type": "Q3",
+    "question": "Analyze the 15-minute segment from the 2nd period. Which player will be the first to reach 5 three-pointers made by the end of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who commits a foul between time 8:52 and 9:02"
+      },
+      {
+        "letter": "B",
+        "text": "The player who misses a three-point attempt between time 3:08 and 3:18"
+      },
+      {
+        "letter": "C",
+        "text": "The player who rebound between time 9:42 and 9:52"
+      },
+      {
+        "letter": "D",
+        "text": "The player who makes a two-point attempt between time 1:57 and 2:07"
+      },
+      {
+        "letter": "E",
+        "text": "The player who misses a three-point attempt between time 4:31 and 4:41"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q3/868868_2.mp4"
+  },
+  {
+    "id": "Q3_238_962817",
+    "question_type": "Q3",
+    "question": "Analyze the 7-minute segment from the 2nd period. Which player will be the first to reach 8 three-point misses by the end of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who commits a foul between time 1:59 and 2:09"
+      },
+      {
+        "letter": "B",
+        "text": "The player who makes a free throw between time 3:41 and 3:51"
+      },
+      {
+        "letter": "C",
+        "text": "The player who misses a free throw between time 5:08 and 5:18"
+      },
+      {
+        "letter": "D",
+        "text": "The player who rebound between time 1:06 and 1:16"
+      },
+      {
+        "letter": "E",
+        "text": "The player who commits a foul between time 5:52 and 6:02"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q3/962817_2.mp4"
+  },
+  {
+    "id": "Q3_517_991422",
+    "question_type": "Q3",
+    "question": "Analyze the 5-minute segment from the 2nd period. Which player will be the first to reach 20 points by the end of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who makes a two-point attempt between time 1:23 and 1:33"
+      },
+      {
+        "letter": "B",
+        "text": "The player who misses a two-point attempt between time 3:26 and 3:36"
+      },
+      {
+        "letter": "C",
+        "text": "The player who misses a three-point attempt between time 1:37 and 1:47"
+      },
+      {
+        "letter": "D",
+        "text": "The player who misses a two-point attempt between time 1:08 and 1:18"
+      },
+      {
+        "letter": "E",
+        "text": "The player who rebound between time 1:11 and 1:21"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q3/991422_2.mp4"
+  },
+  {
+    "id": "Q3_616_986898",
+    "question_type": "Q3",
+    "question": "Analyze the 5-minute segment from the 1st period. Which player will be the first to reach 6 field goals made by the end of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who turnover between time 4:31 and 4:41"
+      },
+      {
+        "letter": "B",
+        "text": "The player who commits a foul between time 0:16 and 0:26"
+      },
+      {
+        "letter": "C",
+        "text": "The player who makes a two-point attempt between time 4:18 and 4:28"
+      },
+      {
+        "letter": "D",
+        "text": "The player who misses a two-point attempt between time 1:39 and 1:49"
+      },
+      {
+        "letter": "E",
+        "text": "The player who makes a free throw between time 1:13 and 1:23"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q3/986898_1.mp4"
+  },
+  {
+    "id": "Q4_27_846481",
+    "question_type": "Q4",
+    "question": "Watch a 12-minute long segment of period 2. Which team will be the first to reach 15 in 2pt-missed?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Delaware"
+      },
+      {
+        "letter": "B",
+        "text": "Lafayette"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q4/846481_2.mp4"
+  },
+  {
+    "id": "Q4_574_829365",
+    "question_type": "Q4",
+    "question": "Watch a 5-minute long segment of period 3. Which team will be the first to reach 35 in rebounds?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Wofford"
+      },
+      {
+        "letter": "B",
+        "text": "East Tennessee State"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q4/829365_3.mp4"
+  },
+  {
+    "id": "Q4_203_399435",
+    "question_type": "Q4",
+    "question": "Watch a 12-minute long segment of period 3. Which team will be the first to reach 20 in assists?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "FMP Beograd"
+      },
+      {
+        "letter": "B",
+        "text": "KK Buducnost"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q4/399435_3.mp4"
+  },
+  {
+    "id": "Q4_665_992478",
+    "question_type": "Q4",
+    "question": "Watch a 10-minute long segment of period 2. Which team will be the first to reach 15 in 2pt-made?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Iowa"
+      },
+      {
+        "letter": "B",
+        "text": "Northwestern"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q4/992478_2.mp4"
+  },
+  {
+    "id": "Q4_558_830257",
+    "question_type": "Q4",
+    "question": "Watch a 3-minute long segment of period 3. Which team will be the first to reach 20 in 2pt-missed?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mt. St. Mary's"
+      },
+      {
+        "letter": "B",
+        "text": "St. Francis (NY)"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q4/830257_3.mp4"
+  },
+  {
+    "id": "Q5_429_976068",
+    "question_type": "Q5",
+    "question": "Watch a 3-minute segment in period 4. Based on this segment, predict which team will win the game by the end of regulation, or if the game goes to overtime.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yale"
+      },
+      {
+        "letter": "B",
+        "text": "Overtime"
+      },
+      {
+        "letter": "C",
+        "text": "Princeton"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q5/976068_4.mp4"
+  },
+  {
+    "id": "Q5_225_963572",
+    "question_type": "Q5",
+    "question": "Watch a 10-minute segment in period 2. Based on this segment, predict which team will win the game by the end of regulation, or if the game goes to overtime.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "San Jose State"
+      },
+      {
+        "letter": "B",
+        "text": "Overtime"
+      },
+      {
+        "letter": "C",
+        "text": "Cal State Fullerton"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q5/963572_2.mp4"
+  },
+  {
+    "id": "Q5_459_984620",
+    "question_type": "Q5",
+    "question": "Watch a 3-minute segment in period 2. Based on this segment, predict which team will win the game by the end of regulation, or if the game goes to overtime.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DePaul"
+      },
+      {
+        "letter": "B",
+        "text": "Overtime"
+      },
+      {
+        "letter": "C",
+        "text": "Providence"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q5/984620_2.mp4"
+  },
+  {
+    "id": "Q5_603_820530",
+    "question_type": "Q5",
+    "question": "Watch a 3-minute segment in period 2. Based on this segment, predict which team will win the game by the end of regulation, or if the game goes to overtime.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Belmont"
+      },
+      {
+        "letter": "B",
+        "text": "Overtime"
+      },
+      {
+        "letter": "C",
+        "text": "Tennessee State"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q5/820530_2.mp4"
+  },
+  {
+    "id": "Q5_284_865208",
+    "question_type": "Q5",
+    "question": "Watch a 3-minute segment in period 4. Based on this segment, predict which team will win the game by the end of regulation, or if the game goes to overtime.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Overtime"
+      },
+      {
+        "letter": "B",
+        "text": "CB Herbalife Gran Canaria"
+      },
+      {
+        "letter": "C",
+        "text": "Hereda San Pablo Burgos"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q5/865208_4.mp4"
+  },
+  {
+    "id": "Q6_6_868771",
+    "question_type": "Q6",
+    "question": "Watch a 3-minute segment from period 3. Which player on team Charlotte Hornets will be the next to 2-pointer made?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who makes a three-point attempt between time 1:50 and 2:00"
+      },
+      {
+        "letter": "B",
+        "text": "The player who makes a three-point attempt between time 2:15 and 2:25"
+      },
+      {
+        "letter": "C",
+        "text": "The player who grabs a rebound between time 2:37 and 2:47"
+      },
+      {
+        "letter": "D",
+        "text": "The player who misses a two-point attempt between time 1:32 and 1:42"
+      },
+      {
+        "letter": "E",
+        "text": "The player who grabs a rebound between time 1:46 and 1:56"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q6/868771_3.mp4"
+  },
+  {
+    "id": "Q6_163_993795",
+    "question_type": "Q6",
+    "question": "Watch a 5-minute segment from period 1. Which player on team Miami (OH) will be the next to rebound?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who misses a two-point attempt between time 2:00 and 2:10"
+      },
+      {
+        "letter": "B",
+        "text": "The player who misses a three-point attempt between time 4:21 and 4:31"
+      },
+      {
+        "letter": "C",
+        "text": "The player who misses a three-point attempt between time 4:15 and 4:25"
+      },
+      {
+        "letter": "D",
+        "text": "The player who grabs a rebound between time 4:41 and 4:51"
+      },
+      {
+        "letter": "E",
+        "text": "The player who grabs a rebound between time 0:43 and 0:53"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q6/993795_1.mp4"
+  },
+  {
+    "id": "Q6_432_825392",
+    "question_type": "Q6",
+    "question": "Watch a 3-minute segment from period 2. Which player on team Niagara will be the next to 3-pointer attempted?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who misses a three-point attempt between time 2:47 and 2:57"
+      },
+      {
+        "letter": "B",
+        "text": "The player who grabs a rebound between time 0:00 and 0:07"
+      },
+      {
+        "letter": "C",
+        "text": "The player who misses a two-point attempt between time 0:14 and 0:24"
+      },
+      {
+        "letter": "D",
+        "text": "The player who grabs a rebound between time 2:41 and 2:51"
+      },
+      {
+        "letter": "E",
+        "text": "The player who grabs a rebound between time 0:54 and 1:04"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q6/825392_2.mp4"
+  },
+  {
+    "id": "Q6_348_1003510",
+    "question_type": "Q6",
+    "question": "Watch a 3-minute segment from period 2. Which player on team New York Knicks will be the next to free throw made?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who misses a three-point attempt between time 0:04 and 0:14"
+      },
+      {
+        "letter": "B",
+        "text": "The player who grabs a rebound between time 0:22 and 0:32"
+      },
+      {
+        "letter": "C",
+        "text": "The player who grabs a rebound between time 2:29 and 2:39"
+      },
+      {
+        "letter": "D",
+        "text": "The player who makes a two-point attempt between time 2:49 and 2:59"
+      },
+      {
+        "letter": "E",
+        "text": "The player who grabs a rebound between time 2:01 and 2:11"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q6/1003510_2.mp4"
+  },
+  {
+    "id": "Q6_284_902396",
+    "question_type": "Q6",
+    "question": "Watch a 5-minute segment from period 1. Which player on team Washington State will be the next to 2-pointer attempted?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The player who makes a two-point attempt between time 4:25 and 4:35"
+      },
+      {
+        "letter": "B",
+        "text": "The player who misses a two-point attempt between time 0:43 and 0:53"
+      },
+      {
+        "letter": "C",
+        "text": "The player who grabs a rebound between time 0:58 and 1:08"
+      },
+      {
+        "letter": "D",
+        "text": "The player who misses a two-point attempt between time 1:10 and 1:20"
+      },
+      {
+        "letter": "E",
+        "text": "The player who grabs a rebound between time 4:51 and 5:00"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q6/902396_1.mp4"
+  },
+  {
+    "id": "Q7_159_401437",
+    "question_type": "Q7",
+    "question": "Watch a 7-minute segment of the game. Which play type will Dallas Mavericks use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pick'n'Roll"
+      },
+      {
+        "letter": "B",
+        "text": "Screen off"
+      },
+      {
+        "letter": "C",
+        "text": "Cut"
+      },
+      {
+        "letter": "D",
+        "text": "Transition"
+      },
+      {
+        "letter": "E",
+        "text": "Hand offs"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q7/401437_3.mp4"
+  },
+  {
+    "id": "Q7_220_1020031",
+    "question_type": "Q7",
+    "question": "Watch a 12-minute segment of the game. Which play type will La Salle use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Isolation"
+      },
+      {
+        "letter": "B",
+        "text": "Pick'n'Roll"
+      },
+      {
+        "letter": "C",
+        "text": "Screen off"
+      },
+      {
+        "letter": "D",
+        "text": "Post"
+      },
+      {
+        "letter": "E",
+        "text": "Transition"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q7/1020031_2.mp4"
+  },
+  {
+    "id": "Q7_344_868187",
+    "question_type": "Q7",
+    "question": "Watch a 15-minute segment of the game. Which play type will Minnesota Timberwolves use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hand offs"
+      },
+      {
+        "letter": "B",
+        "text": "Screen off"
+      },
+      {
+        "letter": "C",
+        "text": "Catch and Drive"
+      },
+      {
+        "letter": "D",
+        "text": "Cut"
+      },
+      {
+        "letter": "E",
+        "text": "Pick'n'pop"
+      }
+    ],
+    "correct_answer": "E",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q7/868187_3.mp4"
+  },
+  {
+    "id": "Q7_104_1002572",
+    "question_type": "Q7",
+    "question": "Watch a 15-minute segment of the game. Which play type will Coosur Real Betis use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Transition"
+      },
+      {
+        "letter": "B",
+        "text": "Pick'n'Roll"
+      },
+      {
+        "letter": "C",
+        "text": "Catch and shoot"
+      },
+      {
+        "letter": "D",
+        "text": "Catch and Drive"
+      },
+      {
+        "letter": "E",
+        "text": "Pick'n'pop"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q7/1002572_1.mp4"
+  },
+  {
+    "id": "Q7_94_848862",
+    "question_type": "Q7",
+    "question": "Watch a 12-minute segment of the game. Which play type will Toledo use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cut"
+      },
+      {
+        "letter": "B",
+        "text": "Pick'n'Roll"
+      },
+      {
+        "letter": "C",
+        "text": "Catch and shoot"
+      },
+      {
+        "letter": "D",
+        "text": "Isolation"
+      },
+      {
+        "letter": "E",
+        "text": "Catch and Drive"
+      }
+    ],
+    "correct_answer": "C",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q7/848862_1.mp4"
+  },
+  {
+    "id": "Q8_389_427652",
+    "question_type": "Q8",
+    "question": "Watch a 3-minute segment of the game. Which shot type will Xinjiang Flying Tigers use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lay up"
+      },
+      {
+        "letter": "B",
+        "text": "Jumper"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q8/427652_4.mp4"
+  },
+  {
+    "id": "Q8_99_403811",
+    "question_type": "Q8",
+    "question": "Watch a 7-minute segment of the game. Which shot type will BC Rytas use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Jumper"
+      },
+      {
+        "letter": "B",
+        "text": "Lay up"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q8/403811_1.mp4"
+  },
+  {
+    "id": "Q8_367_1014274",
+    "question_type": "Q8",
+    "question": "Watch a 10-minute segment of the game. Which shot type will Zhejiang Golden Bulls use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lay up"
+      },
+      {
+        "letter": "B",
+        "text": "Jumper"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q8/1014274_2.mp4"
+  },
+  {
+    "id": "Q8_352_954480",
+    "question_type": "Q8",
+    "question": "Watch a 7-minute segment of the game. Which shot type will BC Pieno Zvaigzdes Pasvalys use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Jumper"
+      },
+      {
+        "letter": "B",
+        "text": "Lay up"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q8/954480_2.mp4"
+  },
+  {
+    "id": "Q8_618_998540",
+    "question_type": "Q8",
+    "question": "Watch a 3-minute segment of the game. Which shot type will Utah Jazz use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lay up"
+      },
+      {
+        "letter": "B",
+        "text": "Jumper"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q8/998540_4.mp4"
+  },
+  {
+    "id": "Q9_270_970933",
+    "question_type": "Q9",
+    "question": "Analyze the 3-minute segment of the game. Observe the player who grabs a rebound between time 1:38 and 1:48. Which play type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Screen off"
+      },
+      {
+        "letter": "B",
+        "text": "Pick'n'Roll"
+      },
+      {
+        "letter": "C",
+        "text": "Pick-n-roll without a ball"
+      },
+      {
+        "letter": "D",
+        "text": "Catch and shoot"
+      },
+      {
+        "letter": "E",
+        "text": "Hand offs"
+      }
+    ],
+    "correct_answer": "D",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q9/970933_3.mp4"
+  },
+  {
+    "id": "Q9_44_991856",
+    "question_type": "Q9",
+    "question": "Analyze the 12-minute segment of the game. Observe the player who commits a turnover between time 0:18 and 0:28. Which play type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Isolation"
+      },
+      {
+        "letter": "B",
+        "text": "Pick-n-roll without a ball"
+      },
+      {
+        "letter": "C",
+        "text": "Pick'n'Roll"
+      },
+      {
+        "letter": "D",
+        "text": "Pick'n'pop"
+      },
+      {
+        "letter": "E",
+        "text": "Cut"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q9/991856_1.mp4"
+  },
+  {
+    "id": "Q9_470_619326",
+    "question_type": "Q9",
+    "question": "Analyze the 15-minute segment of the game. Observe the player who misses a three-point attempt between time 4:47 and 4:57. Which play type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Transition"
+      },
+      {
+        "letter": "B",
+        "text": "Cut"
+      },
+      {
+        "letter": "C",
+        "text": "Pick-n-roll without a ball"
+      },
+      {
+        "letter": "D",
+        "text": "Catch and shoot"
+      },
+      {
+        "letter": "E",
+        "text": "Post"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q9/619326_1.mp4"
+  },
+  {
+    "id": "Q9_549_616710",
+    "question_type": "Q9",
+    "question": "Analyze the 3-minute segment of the game. Observe the player who grabs a rebound between time 1:01 and 1:11. Which play type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Pick-n-roll without a ball"
+      },
+      {
+        "letter": "B",
+        "text": "Post"
+      },
+      {
+        "letter": "C",
+        "text": "Catch and Drive"
+      },
+      {
+        "letter": "D",
+        "text": "Hand offs"
+      },
+      {
+        "letter": "E",
+        "text": "Screen off"
+      }
+    ],
+    "correct_answer": "B",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q9/616710_2.mp4"
+  },
+  {
+    "id": "Q9_127_820888",
+    "question_type": "Q9",
+    "question": "Analyze the 5-minute segment of the game. Observe the player who makes a free throw between time 1:25 and 1:35. Which play type will this specific player use the most for the remainder of the game?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Isolation"
+      },
+      {
+        "letter": "B",
+        "text": "Hand offs"
+      },
+      {
+        "letter": "C",
+        "text": "Pick-n-roll without a ball"
+      },
+      {
+        "letter": "D",
+        "text": "Screen off"
+      },
+      {
+        "letter": "E",
+        "text": "Pick'n'pop"
+      }
+    ],
+    "correct_answer": "A",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/forecasting/Q9/820888_2.mp4"
+  }
+]
