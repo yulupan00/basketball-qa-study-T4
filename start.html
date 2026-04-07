@@ -108,8 +108,9 @@
             document.getElementById('yearsLabel').textContent = 'Years of ' + sport + ' experience (watching/playing/coaching)';
             document.getElementById('ratingLabel').textContent = 'Self-rated ' + sport + ' knowledge (1 = none, 10 = expert)';
 
-            // Load sport-specific question data (only basketball for now)
-            var questionsFile = 'data/questions.js';
+            // Load sport-specific question data
+            var questionsFiles = { hockey: 'data/hockey_questions.js', soccer: 'data/soccer_questions.js' };
+            var questionsFile = questionsFiles[sport] || 'data/questions.js';
             var script = document.createElement('script');
             script.src = questionsFile;
             script.onload = function() {

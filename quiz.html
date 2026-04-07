@@ -136,9 +136,10 @@
             var sport = params.get('sport') || 'basketball';
             window.CURRENT_SPORT = sport;
 
-            // Only basketball for now
-            var qFile = 'data/questions.js';
-            var vmFile = 'js/video_mapping.js';
+            var qFiles = { hockey: 'data/hockey_questions.js', soccer: 'data/soccer_questions.js' };
+            var vmFiles = { hockey: 'js/hockey_video_mapping.js', soccer: 'js/soccer_video_mapping.js' };
+            var qFile = qFiles[sport] || 'data/questions.js';
+            var vmFile = vmFiles[sport] || 'js/video_mapping.js';
 
             var s1 = document.createElement('script');
             s1.src = qFile;
