@@ -1,0 +1,47 @@
+[
+  {
+    "id": "basketball_618097_0",
+    "question_type": "anomaly_novelty_detection",
+    "question": "Late in the first quarter, the Clippers had a sideline/baseline inbound with almost no time left on the shot clock. What happened next on that possession?",
+    "reference_answer": "Despite having only 0.8 seconds on the shot clock, the Clippers failed to inbound the ball in time and were called for a five-second violation, ending the possession without a shot attempt.",
+    "game_id": "618097",
+    "league": "NBA",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/full_game_video/618097_full.mp4"
+  },
+  {
+    "id": "basketball_1003250_1",
+    "question_type": "anomaly_novelty_detection",
+    "question": "In the final seconds of regulation on the Lakers\u2019 potential game-winning possession, what produced New York\u2019s key stop, and which Knicks player was responsible for it?",
+    "reference_answer": "A guard drew the decisive charge against a bigger attacker to stop the final drive. Jalen Brunson set up early, absorbed contact from Anthony Davis, and the call stood after review, giving New York the ball for the last shot of regulation.",
+    "game_id": "1003250",
+    "league": "NBA",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/full_game_video/1003250_full.mp4"
+  },
+  {
+    "id": "basketball_1003449_2",
+    "question_type": "anomaly_novelty_detection",
+    "question": "In the fourth quarter, a jump-ball sequence becomes unusual and is immediately redone. What happens during the tip attempt that leads officials to call for a reset, and who are the two players taking the jump ball?",
+    "reference_answer": "The jump-ball is reset because the two players collide in the air and one is struck from behind during the tip attempt. Chris Paul and Donte DiVincenzo are the two players involved in the jump.",
+    "game_id": "1003449",
+    "league": "NBA",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/full_game_video/1003449_full.mp4"
+  },
+  {
+    "id": "basketball_596024_3",
+    "question_type": "anomaly_novelty_detection",
+    "question": "Late in the first half, Colorado gets out in transition with a clear numbers advantage. What stands out about how they run that fast break in terms of spacing, lane organization, and the choice they make to finish the play?",
+    "reference_answer": "Despite a numbers advantage, Colorado\u2019s spacing collapses and they fail to organize the lanes, leading to a wasted opportunity instead of a clean finish or an easy pass to their point guard.",
+    "game_id": "596024",
+    "league": "NCAA",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/full_game_video/596024_full.mp4"
+  },
+  {
+    "id": "basketball_449595_4",
+    "question_type": "anomaly_novelty_detection",
+    "question": "Right after halftime, what surprising first-possession play does Texas Tech run, and what goes wrong in the execution that causes the possession to fail?",
+    "reference_answer": "They open the half with an alley-oop attempt toward McClung. The pass is thrown too short, so he can\u2019t finish it and Northwestern State comes away with the ball.",
+    "game_id": "449595",
+    "league": "NCAA",
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/full_game_video/449595_full.mp4"
+  }
+]

@@ -1,6 +1,7 @@
 #!/bin/bash
-# Regenerate questions.js files from the JSON source files.
-# Run this after editing any *_questions_5.json file.
+# Regenerate questions.js from the JSON source file.
+# T4 uses free-text answers (no options/correct_answer).
+# Reference answers are kept server-side, NOT shipped to the browser.
 
 cd "$(dirname "$0")"
 
@@ -8,9 +9,7 @@ python3 << 'PYEOF'
 import json, os
 
 configs = [
-    ("data/basketball_questions_3.json", "data/questions.js"),
-    ("data/hockey_questions.json", "data/hockey_questions.js"),
-    ("data/soccer_questions.json", "data/soccer_questions.js"),
+    ("data/basketball_questions.json", "data/questions.js"),
 ]
 
 for src, dst in configs:
@@ -19,14 +18,13 @@ for src, dst in configs:
     with open(src) as f:
         data = json.load(f)
 
+    # Strip reference_answer / video / game_id / league before shipping to browser
     questions = []
     for q in data:
         questions.append({
             "id": q["id"],
             "question_type": q["question_type"],
             "question": q["question"],
-            "options": q["options"],
-            "correct_answer": q["correct_answer"],
         })
 
     with open(dst, "w") as f:
@@ -34,8 +32,7 @@ for src, dst in configs:
         json.dump(questions, f, indent=2)
         f.write(";\n")
 
-    types = set(q["question_type"] for q in data)
-    print(f"{dst}: {len(questions)} questions, {len(types)} types")
+    print(f"{dst}: {len(questions)} questions")
 
 print("Done!")
 PYEOF

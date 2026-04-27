@@ -16,18 +16,18 @@
             </div>
             <div class="landing-body">
                 <p class="description">
-                    Welcome! In this study, you will watch short <strong id="sportLabel"></strong> video clips and answer
-                    multiple-choice questions about what you observe. There are <strong id="totalCount">0</strong>
-                    questions across <strong id="typeCount">0</strong> categories.
+                    Welcome! In this study, you will watch <strong id="sportLabel"></strong> game videos and provide
+                    open-ended written answers to questions about what you observe. There are <strong id="totalCount">0</strong>
+                    questions.
                 </p>
                 <div class="instructions">
                     <h5>Instructions</h5>
                     <ul>
-                        <li>Watch each video clip carefully before answering.</li>
-                        <li>Select the best answer from the given options.</li>
-                        <li>You can replay the video as many times as needed.</li>
+                        <li>Watch each game video carefully and find the moment relevant to the question.</li>
+                        <li>Type your answer in the provided text box. Be as specific as you can.</li>
+                        <li>Indicate how confident you are in your answer (Low / Moderate / High).</li>
+                        <li>You can replay or scrub the video as many times as needed.</li>
                         <li>Your progress is saved automatically in your browser.</li>
-                        <li>Questions are grouped by category.</li>
                     </ul>
                 </div>
 
@@ -76,17 +76,6 @@
                             <span>Expert</span>
                         </div>
                     </div>
-                    <div class="mb-3">
-                        <div class="toggle-option">
-                            <label class="toggle-switch">
-                                <input type="checkbox" id="showAnswers">
-                                <span class="toggle-slider"></span>
-                            </label>
-                            <div class="toggle-text">
-                                <span class="form-label">Show correct answer after each submission</span>
-                            </div>
-                        </div>
-                    </div>
                     <button type="submit" class="btn btn-primary btn-lg w-100">Start Study</button>
                 </form>
             </div>
@@ -99,7 +88,7 @@
             const params = new URLSearchParams(window.location.search);
             const sport = params.get('sport') || 'basketball';
             const sportName = sport.charAt(0).toUpperCase() + sport.slice(1);
-            const storagePrefix = 'bqa_' + sport;
+            const storagePrefix = 'bqa_t4_' + sport;
 
             // Update page text
             document.title = sportName + ' QA - Human Study';
@@ -108,15 +97,11 @@
             document.getElementById('yearsLabel').textContent = 'Years of ' + sport + ' experience (watching/playing/coaching)';
             document.getElementById('ratingLabel').textContent = 'Self-rated ' + sport + ' knowledge (1 = none, 10 = expert)';
 
-            // Load sport-specific question data
-            var questionsFiles = { hockey: 'data/hockey_questions.js', soccer: 'data/soccer_questions.js' };
-            var questionsFile = questionsFiles[sport] || 'data/questions.js';
+            // Only basketball is wired up for now
             var script = document.createElement('script');
-            script.src = questionsFile;
+            script.src = 'data/questions.js';
             script.onload = function() {
-                var types = new Set(QUESTIONS.map(function(q) { return q.question_type; }));
                 document.getElementById('totalCount').textContent = QUESTIONS.length;
-                document.getElementById('typeCount').textContent = types.size;
             };
             document.head.appendChild(script);
 
@@ -159,15 +144,12 @@
                     return;
                 }
 
-                var showAnswers = document.getElementById('showAnswers').checked;
-
                 var sessionData = {
                     userId: userId,
                     userEmail: userEmail,
                     sport: sport,
                     expertiseYears: parseInt(expertiseYears),
                     expertiseRating: parseInt(expertiseRating),
-                    showAnswers: showAnswers,
                     startedAt: new Date().toISOString(),
                     sessionId: crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2),
                 };

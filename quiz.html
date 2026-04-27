@@ -34,7 +34,7 @@
 
         <!-- Video Section -->
         <div class="video-section">
-            <video id="videoPlayer" controls preload="auto" playsinline>
+            <video id="videoPlayer" controls muted preload="auto" playsinline>
                 Your browser does not support the video element.
             </video>
             <div class="video-loading" id="videoLoading">
@@ -52,22 +52,19 @@
             <div class="question-number" id="questionNumber">Question 1</div>
             <p class="question-text" id="questionText"></p>
 
-            <div class="options-container" id="optionsContainer">
-                <!-- Options rendered by JS -->
+            <!-- Free-text answer -->
+            <div class="answer-container">
+                <label for="answerInput" class="form-label">Your answer:</label>
+                <textarea id="answerInput" class="form-control" rows="4"
+                          placeholder="Type your answer here..."></textarea>
             </div>
 
             <!-- Confidence Level -->
             <div class="confidence-container" id="confidenceContainer">
                 <span class="confidence-label">Confidence:</span>
-                <button class="confidence-btn active" data-confidence="sure">Sure</button>
-                <button class="confidence-btn" data-confidence="fairly_confident">Fairly confident</button>
-                <button class="confidence-btn" data-confidence="guess">Guess</button>
-            </div>
-
-            <!-- Feedback -->
-            <div class="feedback" id="feedback" style="display: none;">
-                <div class="feedback-icon" id="feedbackIcon"></div>
-                <div class="feedback-text" id="feedbackText"></div>
+                <button class="confidence-btn" data-confidence="low">Low</button>
+                <button class="confidence-btn" data-confidence="moderate">Moderate</button>
+                <button class="confidence-btn" data-confidence="high">High</button>
             </div>
         </div>
 
@@ -97,14 +94,6 @@
                     <span class="stat-value" id="finalAnswered">0</span>
                     <span class="stat-label">Answered</span>
                 </div>
-                <div class="stat">
-                    <span class="stat-value" id="finalCorrect">0</span>
-                    <span class="stat-label">Correct</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-value" id="finalAccuracy">0%</span>
-                    <span class="stat-label">Accuracy</span>
-                </div>
             </div>
             <div id="submitStatus">
                 <div class="spinner-border spinner-border-sm text-primary" role="status"></div>
@@ -130,16 +119,14 @@
     </div>
 
     <script>
-        // Determine sport and load correct data files, then init quiz
+        // Only basketball is wired up for now
         (function() {
             var params = new URLSearchParams(window.location.search);
             var sport = params.get('sport') || 'basketball';
             window.CURRENT_SPORT = sport;
 
-            var qFiles = { hockey: 'data/hockey_questions.js', soccer: 'data/soccer_questions.js' };
-            var vmFiles = { hockey: 'js/hockey_video_mapping.js', soccer: 'js/soccer_video_mapping.js' };
-            var qFile = qFiles[sport] || 'data/questions.js';
-            var vmFile = vmFiles[sport] || 'js/video_mapping.js';
+            var qFile = 'data/questions.js';
+            var vmFile = 'js/video_mapping.js';
 
             var s1 = document.createElement('script');
             s1.src = qFile;

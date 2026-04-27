@@ -484,6 +484,20 @@ body {
     margin-bottom: 24px;
 }
 
+/* === Free-text answer === */
+.answer-container {
+    margin: 20px 0;
+}
+.answer-container .form-label {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.answer-container textarea {
+    resize: vertical;
+    min-height: 100px;
+    font-size: 0.95rem;
+}
+
 /* === Options === */
 .options-container {
     display: flex;
