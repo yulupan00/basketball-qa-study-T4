@@ -31,6 +31,34 @@
                     </ul>
                 </div>
 
+                <details class="example-section">
+                    <summary><strong>See an example question + sample answer</strong> (recommended)</summary>
+                    <div class="example-body">
+                        <p class="example-label">Example question (NCAA, Cleveland State game):</p>
+                        <p class="example-question">
+                            Midway through the second half, Cleveland State appears to score on a late-clock heave,
+                            but the basket is erased. Why?
+                        </p>
+
+                        <video id="exampleVideo" controls muted preload="metadata" playsinline
+                               style="width:100%; max-height:360px; background:#000; border-radius:6px;">
+                            Your browser does not support the video element.
+                        </video>
+
+                        <p class="example-label" style="margin-top:14px;">A good answer:</p>
+                        <p class="example-answer">
+                            The shot is invalid because it hits the top of the backboard before going in,
+                            so the basket does not count.
+                        </p>
+
+                        <p class="example-tips">
+                            <strong>Tips:</strong> Be specific about <em>what</em> happened and <em>why</em>.
+                            Reference players, teams, or game state if relevant. If you're unsure, pick "Low"
+                            confidence rather than guessing — your honest assessment is what we want.
+                        </p>
+                    </div>
+                </details>
+
                 <!-- Resume banner (hidden by default) -->
                 <div class="resume-banner" id="resumeBanner" style="display: none;">
                     <p>You have a previous session in progress.</p>
@@ -104,6 +132,17 @@
                 document.getElementById('totalCount').textContent = QUESTIONS.length;
             };
             document.head.appendChild(script);
+
+            // Wire up the example video using the same VIDEO_BASE_URL convention as the quiz
+            var vmScript = document.createElement('script');
+            vmScript.src = 'js/video_mapping.js';
+            vmScript.onload = function() {
+                var base = (typeof VIDEO_BASE_URL !== 'undefined' && VIDEO_BASE_URL)
+                    ? VIDEO_BASE_URL.replace(/\/+$/, '') : '';
+                var path = 'videos/basketball/619600_full.mp4';
+                document.getElementById('exampleVideo').src = base ? base + '/' + path : path;
+            };
+            document.head.appendChild(vmScript);
 
             // Rating scale buttons
             document.querySelectorAll('.rating-btn').forEach(function(btn) {
