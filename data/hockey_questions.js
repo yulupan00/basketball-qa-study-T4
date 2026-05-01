@@ -10,9 +10,9 @@ const QUESTIONS = [
     "question": "In the final minute of the third period, a scoring play was reviewed and overturned. Why?"
   },
   {
-    "id": "hockey_681327_2",
+    "id": "hockey_681788_2",
     "question_type": "anomaly_novelty_detection",
-    "question": "In overtime, how late does the deciding goal come, and what leads to the manpower advantage that sets up the scoring chance?"
+    "question": "On New Jersey\u2019s late first-period tying goal, what was notable about how the puck went in?"
   },
   {
     "id": "hockey_681428_3",

@@ -6,7 +6,7 @@
     "reference_answer": "A penalty shot was awarded. Jeremy Lauzon took down Victor Olofsson on a breakaway after losing track of the puck and making a desperation play.",
     "game_id": "681272",
     "league": "NHL",
-    "video_src": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681272_full.mp4"
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681272_full.mp4"
   },
   {
     "id": "hockey_681281_1",
@@ -15,16 +15,16 @@
     "reference_answer": "A fight began before the shot, with gloves coming off and hitting the ice prior to the puck going in. After review, the officials confirmed the goal could not count because the altercation started first, so play should have been stopped.",
     "game_id": "681281",
     "league": "NHL",
-    "video_src": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681281_full.mp4"
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681281_full.mp4"
   },
   {
-    "id": "hockey_681327_2",
+    "id": "hockey_681788_2",
     "question_type": "anomaly_novelty_detection",
-    "question": "In overtime, how late does the deciding goal come, and what leads to the manpower advantage that sets up the scoring chance?",
-    "reference_answer": "The game is decided with only 0.7 seconds left in overtime, and it happens on a 4-on-3 power play created by a cross-checking penalty on Kempe.",
-    "game_id": "681327",
+    "question": "On New Jersey\u2019s late first-period tying goal, what was notable about how the puck went in?",
+    "reference_answer": "A puck thrown from behind the net went in because it was knocked/deflected by a Dallas skater. The deflection came off the Stars\u2019 defenseman, turning a low-percentage play from behind the goal line into a goal.",
+    "game_id": "681788",
     "league": "NHL",
-    "video_src": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681327_full.mp4"
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681788_full.mp4"
   },
   {
     "id": "hockey_681428_3",
@@ -33,15 +33,15 @@
     "reference_answer": "Vasilevskiy\u2019s mask was knocked off his head. It happened when a hard shot from the point was tipped in front, changing direction and striking him high enough to dislodge the mask.",
     "game_id": "681428",
     "league": "NHL",
-    "video_src": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681428_full.mp4"
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681428_full.mp4"
   },
   {
     "id": "hockey_681479_4",
     "question_type": "anomaly_novelty_detection",
     "question": "During Colorado\u2019s extended power play late in the second period, what unexpected issue affected Pittsburgh\u2019s goalie, and how did the Penguins resolve it in the moment?",
-    "reference_answer": "The Penguins\u2019 goalie broke his stick during the kill and briefly played without a proper goalie stick. Kris Letang improvised by handing over his own stick so the goalie could continue through the remaining power-play pressure.",
+    "reference_answer": "The Penguins\u2019 goalie broke his stick during the kill and briefly played without a proper goalie stick. Kris Letang improvised by handing over his own stick so the goalie could continue through the remaining power\u2011play pressure.",
     "game_id": "681479",
     "league": "NHL",
-    "video_src": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681479_full.mp4"
+    "video": "/mnt/sun/shared/datasets/sports_dataset/hockey/full_game_video/681479_full.mp4"
   }
 ]
