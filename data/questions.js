@@ -15,9 +15,9 @@ const QUESTIONS = [
     "question": "In the fourth quarter, a jump-ball sequence becomes unusual and is immediately redone. What happens during the tip attempt that leads officials to call for a reset, and who are the two players taking the jump ball?"
   },
   {
-    "id": "basketball_596024_3",
-    "question_type": "anomaly_novelty_detection",
-    "question": "Late in the first half, Colorado gets out in transition with a clear numbers advantage. What stands out about how they run that fast break in terms of spacing, lane organization, and the choice they make to finish the play?"
+    "id": "basketball_729646_3",
+    "question_type": "causal_counterfactual_reasoning",
+    "question": "On Baylor\u2019s first made three, what defensive mistake allowed the shot to be generated, and what was the sequence of events on the possession that led to the basket?"
   },
   {
     "id": "basketball_449595_4",

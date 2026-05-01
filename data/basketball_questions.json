@@ -27,13 +27,13 @@
     "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/full_game_video/1003449_full.mp4"
   },
   {
-    "id": "basketball_596024_3",
-    "question_type": "anomaly_novelty_detection",
-    "question": "Late in the first half, Colorado gets out in transition with a clear numbers advantage. What stands out about how they run that fast break in terms of spacing, lane organization, and the choice they make to finish the play?",
-    "reference_answer": "Despite a numbers advantage, Colorado\u2019s spacing collapses and they fail to organize the lanes, leading to a wasted opportunity instead of a clean finish or an easy pass to their point guard.",
-    "game_id": "596024",
+    "id": "basketball_729646_3",
+    "question_type": "causal_counterfactual_reasoning",
+    "question": "On Baylor\u2019s first made three, what defensive mistake allowed the shot to be generated, and what was the sequence of events on the possession that led to the basket?",
+    "reference_answer": "It came from second-chance offense: Baylor secured an offensive rebound, immediately kicked the ball back out to the perimeter, and converted the open three. The possession was created by winning the glass and turning it into a fast kick-out shot.",
+    "game_id": "729646",
     "league": "NCAA",
-    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/full_game_video/596024_full.mp4"
+    "video": "/mnt/sun/shared/datasets/sports_dataset/basketball/full_game_video/729646_full.mp4"
   },
   {
     "id": "basketball_449595_4",
