@@ -125,15 +125,21 @@
             document.getElementById('yearsLabel').textContent = 'Years of ' + sport + ' experience (watching/playing/coaching)';
             document.getElementById('ratingLabel').textContent = 'Self-rated ' + sport + ' knowledge (1 = none, 10 = expert)';
 
-            // Only basketball is wired up for now
+            // Sport-specific question + video-mapping files
+            var qFiles = { hockey: 'data/hockey_questions.js', soccer: 'data/soccer_questions.js' };
+            var vmFiles = { hockey: 'js/hockey_video_mapping.js', soccer: 'js/soccer_video_mapping.js' };
+            var qFile = qFiles[sport] || 'data/questions.js';
+            var vmFile = vmFiles[sport] || 'js/video_mapping.js';
+
             var script = document.createElement('script');
-            script.src = 'data/questions.js';
+            script.src = qFile;
             script.onload = function() {
                 document.getElementById('totalCount').textContent = QUESTIONS.length;
             };
             document.head.appendChild(script);
 
-            // Wire up the example video using the same VIDEO_BASE_URL convention as the quiz
+            // Example video uses the basketball example regardless of sport (the task is the same).
+            // Use the basketball video_mapping just to fetch its VIDEO_BASE_URL.
             var vmScript = document.createElement('script');
             vmScript.src = 'js/video_mapping.js';
             vmScript.onload = function() {

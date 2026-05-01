@@ -1,0 +1,47 @@
+[
+  {
+    "id": "soccer_5476989_0",
+    "question_type": "anomaly_novelty_detection",
+    "question": "Two key goals in the match are finished with headers but come from very different types of situations. Who scores each header, and how do the two headed finishes differ in their build-up and execution?",
+    "reference_answer": "S\u00f8rloth scores with a towering header, while Joselu scores a close-range header. The contrast is the finishing profile: one is a high, dominant aerial header, the other is a near-goal poacher\u2019s header.",
+    "game_id": "5476989",
+    "league": "LaLiga",
+    "video_src": "/mnt/sun/shared/datasets/sports_dataset/soccer/full_game_video/LaLiga/2023-2024/5476989.mp4"
+  },
+  {
+    "id": "soccer_5592285_1",
+    "question_type": "anomaly_novelty_detection",
+    "question": "Right after Valencia scored to make it 2\u20130, what notable disciplinary action occurred and who was involved?",
+    "reference_answer": "Valencia\u2019s captain Pepelu was shown a yellow card for his celebration.",
+    "game_id": "5592285",
+    "league": "LaLiga",
+    "video_src": "/mnt/sun/shared/datasets/sports_dataset/soccer/full_game_video/LaLiga/2024-2025/5592285.mp4"
+  },
+  {
+    "id": "soccer_5592474_2",
+    "question_type": "anomaly_novelty_detection",
+    "question": "On Barcelona\u2019s opening goal, describe how the shot from inside the box ended up in the net.",
+    "reference_answer": "The shot went in only after striking the crossbar first; it rebounded down and crossed the line rather than going straight into the net.",
+    "game_id": "5592474",
+    "league": "LaLiga",
+    "video_src": "/mnt/sun/shared/datasets/sports_dataset/soccer/full_game_video/LaLiga/2024-2025/5592474.mp4"
+  },
+  {
+    "id": "soccer_5234859_3",
+    "question_type": "anomaly_novelty_detection",
+    "question": "On the penalty that gave Brentford the lead, what notable thing did the goalkeeper do before the kick, and what was the result?",
+    "reference_answer": "The goalkeeper tampered with the penalty spot by scuffing it up. He was booked for it.",
+    "game_id": "5234859",
+    "league": "Premier League",
+    "video_src": "/mnt/sun/shared/datasets/sports_dataset/soccer/full_game_video/EPL/2021-2022/5234859.mp4"
+  },
+  {
+    "id": "soccer_5465181_4",
+    "question_type": "anomaly_novelty_detection",
+    "question": "Crystal Palace\u2019s opening goal stems from a Tottenham player\u2019s defensive decision. What was that decision, where on the pitch did it occur, and how did it relate to the scoring chance that followed?",
+    "reference_answer": "He intentionally fouls the attacker right on the edge of the penalty area instead of trying to win the ball cleanly. The consequence is a dangerous central free kick, which Palace convert directly for the opening goal.",
+    "game_id": "5465181",
+    "league": "Premier League",
+    "video_src": "/mnt/sun/shared/datasets/sports_dataset/soccer/full_game_video/EPL/2023-2024/5465181.mp4"
+  }
+]
